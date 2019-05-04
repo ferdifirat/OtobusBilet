@@ -1,0 +1,30 @@
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\Dal.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\Dal.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\Data.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\Data.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\Data.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\obj\Debug\Dal.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Dal\obj\Debug\Dal.pdb
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\Dal.dll.config
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\Dal.dll
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\Dal.pdb
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\Data.dll
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.dll
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\Data.pdb
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\Data.dll.config
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.xml
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\obj\Debug\Dal.csproj.CopyComplete
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\obj\Debug\Dal.dll
+D:\SILMEYINIZ\Desktop\Yeni klasör\OtobusBiletSistemi\Dal\obj\Debug\Dal.pdb
