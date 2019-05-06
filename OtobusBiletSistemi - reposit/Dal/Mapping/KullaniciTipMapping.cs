@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -8,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace Dal
 {
-    public class KullaniciTipMapping : EntityTypeConfiguration<KullaniciTip>
+    public class KullaniciTipMapping : EntityTypeConfiguration<KullaniciTipi>
     {
         public KullaniciTipMapping()
         {
             ToTable("KullanıcıTipleri");
             Property(x => x.TipAdi).IsRequired();
-            HasKey(x => x.KullaniciTipID);
+            HasKey(x => x.Id);
 
 
         }

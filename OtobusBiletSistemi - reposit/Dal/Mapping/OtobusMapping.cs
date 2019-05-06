@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -13,7 +14,7 @@ namespace Dal
         public OtobusMapping()
         {
             ToTable("Otobusler");
-            HasKey(x => x.OtobusID);
+            HasKey(x => x.Id);
             HasRequired(x => x.OtobusTipi).WithMany(x => x.Otobusler).HasForeignKey(x => x.OtobusTipiID);
 
 

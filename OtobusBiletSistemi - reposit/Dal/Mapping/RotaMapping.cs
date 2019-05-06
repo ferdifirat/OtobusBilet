@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -13,10 +14,8 @@ namespace Dal
         public RotaMapping()
         {
             ToTable("Rotalar");
-            HasKey(x => x.RotaID);
+            HasKey(x => x.Id);
 
-            HasRequired(x => x.Durak).WithMany(x => x.Rotalar).HasForeignKey(x => x.CikisID);
-            HasRequired(x => x.Durak).WithMany(x => x.Rotalar).HasForeignKey(x => x.VarisID);
         }
 
 

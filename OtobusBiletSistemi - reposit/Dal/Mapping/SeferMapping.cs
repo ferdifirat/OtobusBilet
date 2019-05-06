@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -13,14 +14,13 @@ namespace Dal
         public SeferMapping()
         {
             ToTable("Seferler");
-            HasKey(x => x.SeferID);
+            HasKey(x => x.Id);
 
             HasRequired(x => x.Rota).WithMany(x => x.Seferler).HasForeignKey(x => x.RotaID);
             HasRequired(x => x.Otobus).WithMany(x => x.Seferler).HasForeignKey(x => x.OtobusID);
 
-            //kontrol
-
             
+
         }
     }
 }

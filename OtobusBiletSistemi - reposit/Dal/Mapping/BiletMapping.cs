@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -13,11 +14,8 @@ namespace Dal
         public BiletMapping()
         {
             ToTable("Biletler");
-            HasKey(x => x.BiletID);
-
-            Property(x => x.Ad).IsRequired().HasMaxLength(30);
-            Property(x => x.Soyad).IsRequired().HasMaxLength(30);
-            Property(x => x.TcNo).IsRequired().HasMaxLength(11);
+            HasKey(x => x.Id);
+            
             Property(x => x.Fiyat).IsRequired();
             HasRequired(x => x.Sefer).WithMany(x => x.Biletler).HasForeignKey(x => x.SeferID);
             HasRequired(x => x.Kullanici).WithMany(x => x.Biletler).HasForeignKey(x => x.KullaniciID);

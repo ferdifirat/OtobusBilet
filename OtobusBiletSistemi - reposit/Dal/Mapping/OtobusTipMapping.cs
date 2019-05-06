@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -13,8 +14,8 @@ namespace Dal
         public OtobusTipMapping()
         {
             ToTable("OtobusTipleri");
-            HasKey(x => x.OtobusTipiID);
-            
+            HasKey(x => x.Id);
+
         }
     }
 }

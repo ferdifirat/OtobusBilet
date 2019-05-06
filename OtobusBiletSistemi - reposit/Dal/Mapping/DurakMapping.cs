@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -16,7 +17,7 @@ namespace Dal
 
             Property(x => x.DurakAdi).IsRequired().HasMaxLength(30);
 
-          
+
         }
 
     }

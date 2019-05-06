@@ -48,18 +48,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mapping\BiletMapping.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="Mapping\BiletMapping.cs" />
     <Compile Include="Mapping\DurakMapping.cs" />
     <Compile Include="Mapping\KoltukMapping.cs" />
     <Compile Include="Mapping\KullaniciMapping.cs" />
     <Compile Include="Mapping\KullaniciTipMapping.cs" />
     <Compile Include="Mapping\OtobusMapping.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Mapping\OtobusTipMapping.cs" />
+    <Compile Include="Mapping\RotaDurakMapping.cs" />
     <Compile Include="Mapping\RotaMapping.cs" />
     <Compile Include="Mapping\SeferMapping.cs" />
-    <Compile Include="Mapping\OtobusTipMapping.cs" />
+    <Compile Include="Migrations\201905050700461_updateKullaniciTable.cs" />
+    <Compile Include="Migrations\201905050700461_updateKullaniciTable.Designer.cs">
+      <DependentUpon>201905050700461_updateKullaniciTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905051144275_updateTicketTable.cs" />
+    <Compile Include="Migrations\201905051144275_updateTicketTable.Designer.cs">
+      <DependentUpon>201905051144275_updateTicketTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905051153342_updateTicketTable2.cs" />
+    <Compile Include="Migrations\201905051153342_updateTicketTable2.Designer.cs">
+      <DependentUpon>201905051153342_updateTicketTable2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\EFRepository.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="UnitOfWork\EFUnitOfWork.cs" />
@@ -75,6 +88,16 @@
       <Name>Data</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201905050700461_updateKullaniciTable.resx">
+      <DependentUpon>201905050700461_updateKullaniciTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905051144275_updateTicketTable.resx">
+      <DependentUpon>201905051144275_updateTicketTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905051153342_updateTicketTable2.resx">
+      <DependentUpon>201905051153342_updateTicketTable2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

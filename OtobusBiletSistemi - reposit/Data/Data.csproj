@@ -48,20 +48,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bilet.cs" />
-    <Compile Include="Durak.cs" />
-    <Compile Include="Koltuk.cs" />
-    <Compile Include="Kullanici.cs" />
-    <Compile Include="KullaniciTip.cs" />
-    <Compile Include="Otobus.cs" />
+    <Compile Include="Entities\Bilet.cs" />
+    <Compile Include="Entities\Durak.cs" />
+    <Compile Include="Entities\Koltuk.cs" />
+    <Compile Include="Entities\Kullanici.cs" />
+    <Compile Include="Entities\KullaniciTipi.cs" />
+    <Compile Include="Entities\Otobus.cs" />
+    <Compile Include="Entities\OtobusTipi.cs" />
+    <Compile Include="Entities\Rota.cs" />
+    <Compile Include="Entities\RotaDurak.cs" />
+    <Compile Include="Entities\Sefer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rota.cs" />
-    <Compile Include="Sefer.cs" />
-    <Compile Include="OtobusTipi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

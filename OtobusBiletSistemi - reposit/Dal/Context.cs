@@ -1,4 +1,6 @@
-﻿using Data;
+﻿using Dal.Mapping;
+using Data;
+using Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -24,12 +26,12 @@ namespace Dal
         public DbSet<Durak> Duraklar { get; set; }
         public DbSet<Koltuk> Koltuklar { get; set; }
         public DbSet<Kullanici> Kullanicilar { get; set; }
-        public DbSet<KullaniciTip> KullaniciTipleri { get; set; }
+        public DbSet<KullaniciTipi> KullaniciTipleri { get; set; }
         public DbSet<Sefer> Seferler { get; set; }
         public DbSet<Otobus> Otobusler { get; set; }
         public DbSet<OtobusTipi> OtobusTipleri { get; set; }
         public DbSet<Rota> Rotalar { get; set; }
-
+        public DbSet<RotaDurak> RotaDuraklar { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -42,6 +44,7 @@ namespace Dal
             modelBuilder.Configurations.Add(new OtobusMapping());
             modelBuilder.Configurations.Add(new OtobusTipMapping());
             modelBuilder.Configurations.Add(new RotaMapping());
+            modelBuilder.Configurations.Add(new RotaDurakMapping());
 
             base.OnModelCreating(modelBuilder);
         }
