@@ -34,7 +34,7 @@ namespace UI
         public Sefer gidisSefer = null;
         public Sefer donusSefer = null;
         decimal yolcuSayisi;
-        int yonSecimi = 1, otobusTipi = 1;
+        int yonSecimi = 1, otobusTipi = 0;
 
         #endregion
 
@@ -77,7 +77,9 @@ namespace UI
                 };
                 cmbNereye.Items.Add(item);
                 cmbNereden.Items.Add(item);
+
             }
+
         }
 
         private void StartUpComponentSettings()
@@ -93,6 +95,8 @@ namespace UI
             //    Panel pnlKisi = new Panel();
             //    pnlKisi1.Visible = false;
             //}
+
+
 
         }
 
@@ -176,6 +180,8 @@ namespace UI
         {
             var selectedValue = (ComboBoxItem)selectedItem;
             return selectedValue.Value;
+
+
         }
 
         private void btnUyeOl_Click(object sender, EventArgs e)
@@ -222,7 +228,8 @@ namespace UI
 
         private void btnTekYonSecim_Click(object sender, EventArgs e)
         {
-            var seferId = dataGridGidis.Rows[0].Cells[0].Value;
+            int rowindex = dataGridGidis.CurrentRow.Index;
+            var seferId = dataGridGidis.Rows[rowindex].Cells[0].Value;
             gidisSefer = _seferRepository.Get(x => x.Id == (int)seferId);
             var otobus = _otobusRepository.Get(x => x.Id == gidisSefer.OtobusID);
             otobusTipi = otobus.OtobusTipiID;
@@ -236,12 +243,14 @@ namespace UI
             if (otobusTipi == 1)
             {
                 panelBusiness.Visible = false;
+                pnlBusinessCinsiyet.Visible = false;
                 LoadOtobusSeats(otobus);
             }
             else if (otobusTipi == 2)
             {
                 panelClassic.Visible = false;
-
+                pnlEkonomiCinsiyet.Visible = false;
+                panelBusiness.Visible = true;
 
             }
         }
@@ -290,7 +299,6 @@ namespace UI
         }
         decimal sayac = 0;
         int butonNo;
-        Button btn2;
         private void btnKoltuk_Click(object sender, EventArgs e)
         {
 
@@ -310,21 +318,6 @@ namespace UI
                             btn2 = "btnEkonomi" + (butonNo - 1);
                             Button button1 = this.Controls.Find(btn2, true).FirstOrDefault() as Button;
 
-
-                            //foreach (Control item in panelClassic.Controls)
-                            //{
-                            //    if (item is Button)
-                            //    {
-                            //        if (item.Name==btn2.Name)
-                            //        {
-                            //            if (item.BackColor != Color.Pink)
-                            //            {
-                            //                btn.BackColor = Color.Green;
-                            //            }
-                            //        }
-                            //    }
-                            //}
-
                             if (button1.BackColor != Color.Pink)
                             {
                                 btn.Name = "btnEkonomi" + butonNo;
@@ -334,73 +327,71 @@ namespace UI
                         }
                         else if (butonNo % 2 == 1)
                         {
-                            //btn2.Text = (butonNo + 1).ToString();
-                            //btn2.Name = "btnEkonomi" + (butonNo + 1);
-                            //if (btn2.BackColor != Color.Pink)
-                            //{
-                            //    btn.Name = "btnEkonomi" + butonNo;
-                            //    btn.BackColor = Color.Green;
-                            //    sayac++;
-                            //}
-                        }
+                            btn2 = "btnEkonomi" + (butonNo + 1);
+                            Button button1 = this.Controls.Find(btn2, true).FirstOrDefault() as Button;
 
-                        //btn.BackColor = Color.Green;
-                        //btn.Enabled = false;
+                            if (button1.BackColor != Color.Pink)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Green;
+                                sayac++;
+                            }
+                        }
 
                     }
                     else if (rdoEkonomiKadin.Checked == true)
                     {
-                        //    if (butonNo % 2 == 0)
-                        //    {
-                        //        btn2.Text = (butonNo - 1).ToString();
-                        //        btn2.Name = "btnEkonomi" + (butonNo - 1);
-                        //        if (btn2.BackColor != Color.Blue)
-                        //        {
-                        //            btn.Name = "btnEkonomi" + butonNo;
-                        //            btn.BackColor = Color.Gray;
-                        //            sayac++;
-                        //        }
-                        //    }
-                        //    else if (butonNo % 2 == 1)
-                        //    {
-                        //        btn2.Text = (butonNo + 1).ToString();
-                        //        btn2.Name = "btnEkonomi" + (butonNo + 1);
-                        //        if (btn2.BackColor != Color.Blue)
-                        //        {
-                        //            btn.Name = "btnEkonomi" + butonNo;
-                        //            btn.BackColor = Color.Gray;
-                        //            sayac++;
-                        //        }
-                        //    }
+                        if (butonNo % 2 == 0)
+                        {
+                            btn2 = "btnEkonomi" + (butonNo - 1);
+                            Button button1 = this.Controls.Find(btn2, true).FirstOrDefault() as Button;
 
-                        //    //btn.BackColor = Color.Green;
-                        //    //btn.Enabled = false;
-                        //}
+                            if (button1.BackColor != Color.Blue)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Gray;
+                                sayac++;
+                            }
+                        }
+                        else if (butonNo % 2 == 1)
+                        {
+                            btn2 = "btnEkonomi" + (butonNo - 1);
+                            Button button1 = this.Controls.Find(btn2, true).FirstOrDefault() as Button;
+
+                            if (button1.BackColor != Color.Blue)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Gray;
+                                sayac++;
+                            }
+                        }
+
+
                     }
                     else if (rdoBusinessErkek.Checked == true)
                     {
-                        //if (butonNo % 2 == 0)
-                        //{
-                        //    btn2.Text = (butonNo - 1).ToString();
-                        //    btn2.Name = "btnBusiness" + (butonNo - 1);
-                        //    if (btn2.BackColor != Color.Blue)
-                        //    {
-                        //        btn.Name = "btnBusiness" + butonNo;
-                        //        btn.BackColor = Color.Gray;
-                        //        sayac++;
-                        //    }
-                        //}
-                        //else if (butonNo % 2 == 1)
-                        //{
-                        //    btn2.Text = (butonNo + 1).ToString();
-                        //    btn2.Name = "btnBusiness" + (butonNo + 1);
-                        //    if (btn2.BackColor != Color.Blue)
-                        //    {
-                        //        btn.Name = "btnBusiness" + butonNo;
-                        //        btn.BackColor = Color.Gray;
-                        //        sayac++;
-                        //    }
-                        //}
+                        if (butonNo % 2 == 0)
+                        {
+                            btn2 = "btnEkonomi" + (butonNo - 1);
+                            Button button1 = this.Controls.Find(btn2, true).FirstOrDefault() as Button;
+                            if (button1.BackColor != Color.Blue)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Gray;
+                                sayac++;
+                            }
+                        }
+                        else if (butonNo % 2 == 1)
+                        {
+                            btn2 = "btnEkonomi" + (butonNo - 1);
+                            Button button1 = this.Controls.Find(btn2, true).FirstOrDefault() as Button;
+                            if (button1.BackColor != Color.Blue)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Gray;
+                                sayac++;
+                            }
+                        }
                     }
                     else if (rdoBusinessKadin.Checked == true)
                     {
