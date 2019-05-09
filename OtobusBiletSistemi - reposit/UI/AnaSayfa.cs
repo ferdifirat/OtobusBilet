@@ -47,8 +47,8 @@ namespace UI
 
         private void AnaSayfa_Load(object sender, EventArgs e)
         {
-            BaslangıcAyarları();
-            DurakAraması();
+            StartUpComponentSettings();
+            InitializeTourSearch();
         }
 
         private void InitializeConstructor()
@@ -65,10 +65,10 @@ namespace UI
 
         }
 
-        private void DurakAraması()
+        private void InitializeTourSearch()
         {
-            var duraklar = _durakRepository.GetAll().ToList();
-            foreach (var i in duraklar)
+            var duraks = _durakRepository.GetAll().ToList();
+            foreach (var i in duraks)
             {
                 var item = new ComboBoxItem()
                 {
@@ -80,7 +80,7 @@ namespace UI
             }
         }
 
-        private void BaslangıcAyarları()
+        private void StartUpComponentSettings()
         {
             rdoSatis.Checked = true;
             rdoTekYon.Checked = true;
@@ -88,6 +88,12 @@ namespace UI
             dtDonus.MinDate = DateTime.Now;
             dtGidis.MinDate = DateTime.Now;
             btnOturumuKapat.Visible = false;
+            //for (int i = 1; i <= yolcuSayisi; i++)
+            //{
+            //    Panel pnlKisi = new Panel();
+            //    pnlKisi1.Visible = false;
+            //}
+
         }
 
         private void rdoGidisDonus_CheckedChanged(object sender, EventArgs e)
@@ -114,48 +120,46 @@ namespace UI
                 var varisDurak = GetValueOfCombobox(cmbNereye.SelectedItem);
                 var cikisSaati = dtGidis.Value;
 
-                var gidisTurListesi = new List<Sefer>();
-                gidisTurListesi = TurListesi(kalkisDurak, varisDurak, cikisSaati);
+                var gidisTourList = new List<Sefer>();
+                gidisTourList = GetTourList(kalkisDurak, varisDurak, cikisSaati);
 
-                if (gidisTurListesi.Count > 0)
+                if (gidisTourList.Count > 0)
                 {
-                    gidisSeferList = gidisTurListesi;
+                    gidisSeferList = gidisTourList;
                     tabControl2.SelectedIndex = 2;
                     yonSecimi = rdoGidisDonus.Checked ? 2 : yonSecimi;
 
                     if (yonSecimi == 2)
                     {
-                        btnTekYonAra.Visible = false;
-                        btnTekYonSecim.Visible = false;
                         var donusSaati = dtDonus.Value;
-                        donusSeferList = TurListesi(varisDurak, kalkisDurak, donusSaati);
+                        donusSeferList = GetTourList(varisDurak, kalkisDurak, donusSaati);
                     }
-
-                    TurListesiniDoldur();
+                    FillTourLists();
+                    //yonlerde sonradan değişiklikte sıkıntı var incelenmeli
                 }
             }
         }
 
-        private List<Sefer> TurListesi(int kalkisDurak, int varisDurak, DateTime cikisSaati)
+        private List<Sefer> GetTourList(int kalkisDurak, int varisDurak, DateTime cikisSaati)
         {
-            var turListe = new List<Sefer>();
-            var rotaListesi = _rotaRepository.GetAll(x => x.CikisID == kalkisDurak && x.VarisID == varisDurak).ToList();
+            var tourList = new List<Sefer>();
+            var rotaListe = _rotaRepository.GetAll(x => x.CikisID == kalkisDurak && x.VarisID == varisDurak).ToList();
 
-            var seferListe = _seferRepository.GetAll(x => x.CikisSaati > cikisSaati).ToList();
-            //sıkıntılı Çıkış Saati>cikisSaati olacak
+            var seferListe = _seferRepository.GetAll(x => x.CikisSaati > cikisSaati).ToList();// to do : alttaki foreach'i linq ile yap
+            //sıkıntılı
 
 
             foreach (var item in seferListe)
             {
-                if (rotaListesi.Any(x => x.Id == item.RotaID))
+                if (rotaListe.Any(x => x.Id == item.RotaID))
                 {
-                    turListe.Add(item);
+                    tourList.Add(item);
                 }
             }
-            return turListe;
+            return tourList;
         }
 
-        private void TurListesiniDoldur()
+        private void FillTourLists()
         {
             dataGridGidis.DataSource = gidisSeferList;
             if (yonSecimi == 2)
@@ -176,7 +180,6 @@ namespace UI
 
         private void btnUyeOl_Click(object sender, EventArgs e)
         {
-            //BosDoluYapilmadi..
             UyeKayitEkrani uyeKayitEkrani = new UyeKayitEkrani(this);
             uyeKayitEkrani.Show();
             this.Hide();
@@ -223,45 +226,43 @@ namespace UI
             gidisSefer = _seferRepository.Get(x => x.Id == (int)seferId);
             var otobus = _otobusRepository.Get(x => x.Id == gidisSefer.OtobusID);
             otobusTipi = otobus.OtobusTipiID;
-            KoltukSecimi(otobus);
+            LoadSelectSeatPanel(otobus);
         }
 
-        private void KoltukSecimi(Otobus otobus)
+        private void LoadSelectSeatPanel(Otobus otobus)
         {
             tabControl2.SelectedIndex = 3;
-            if (yonSecimi==1)
+
+            if (otobusTipi == 1)
             {
-                if (otobusTipi == 1)
-                {
-                    panelBusiness.Visible = false;
-                    KoltuklariDoldur(otobus);
-                }
-                else
-                {
-                    panelClassic.Visible = false;
-                }
+                panelBusiness.Visible = false;
+                LoadOtobusSeats(otobus);
             }
-            else
+            else if (otobusTipi == 2)
             {
-                MessageBox.Show("lütfen");
+                panelClassic.Visible = false;
+
+
             }
-            
         }
 
-        private void KoltuklariDoldur(Otobus otobus)
+        private void LoadOtobusSeats(Otobus otobus)
         {
-            var biletler = _biletRepository.GetAll(x => x.SeferID == gidisSefer.Id).ToList();
-            var koltukAdlari = otobus.OtobusTipiID == 1 ? "btnEkonomi" : "btnBusiness";
+            var tickets = _biletRepository.GetAll(x => x.SeferID == gidisSefer.Id).ToList();
 
-            foreach (var item in biletler)
+
+            foreach (var item in tickets)
             {
+                var seatNumberBox = otobus.OtobusTipiID == 1 ? "btnEkonomi" : "btnBusiness";
                 var gender = _kullaniciRepository.Get(x => x.Id == item.KullaniciID).Gender;
-                koltukAdlari = koltukAdlari + item.KoltukNo;
-                Button button = this.Controls.Find(koltukAdlari, true).FirstOrDefault() as Button;
+                seatNumberBox = seatNumberBox + item.KoltukNo;
+                Button button = this.Controls.Find(seatNumberBox, true).FirstOrDefault() as Button;
+
 
                 if (button != null)
                 {
                     button.BackColor = gender == true ? Color.Blue : Color.Pink;
+                    button.Enabled = false;
                 }
             }
         }
@@ -287,6 +288,153 @@ namespace UI
         {
 
         }
+        decimal sayac = 0;
+        int butonNo;
+        Button btn2;
+        private void btnKoltuk_Click(object sender, EventArgs e)
+        {
+
+            if (sayac == (yolcuSayisi))
+                MessageBox.Show("Girdiğiniz yolcu sayısına ulaştınız daha fazla koltuk seçemezsiniz.");
+            else
+            {
+                Button btn = (Button)sender;
+                btn2 = new Button();
+                butonNo = Convert.ToInt32(btn.Text);
+                if (btn.BackColor == Color.White)
+                {
+                    if (rdoEkonomiErkek.Checked == true)
+                    {
+                        if (butonNo % 2 == 0)
+                        {
+                            btn2.Text = (butonNo - 1).ToString();
+                            btn2.Name = "btnEkonomi" + (butonNo - 1);
+                           
+
+                            //foreach (Control item in panelClassic.Controls)
+                            //{
+                            //    if (item is Button)
+                            //    {
+                            //        if (item.Name==btn2.Name)
+                            //        {
+                            //            if (item.BackColor != Color.Pink)
+                            //            {
+                            //                btn.BackColor = Color.Green;
+                            //            }
+                            //        }
+                            //    }
+                            //}
+
+                            if (btn2.BackColor != Color.Pink)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Green;
+                                sayac++;
+                            }
+                        }
+                        else if (butonNo % 2 == 1)
+                        {
+                            btn2.Text = (butonNo + 1).ToString();
+                            btn2.Name = "btnEkonomi" + (butonNo + 1);
+                            if (btn2.BackColor != Color.Pink)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Green;
+                                sayac++;
+                            }
+                        }
+
+                        //btn.BackColor = Color.Green;
+                        //btn.Enabled = false;
+
+                    }
+                    else if (rdoEkonomiKadin.Checked == true)
+                    {
+                        if (butonNo % 2 == 0)
+                        {
+                            btn2.Text = (butonNo - 1).ToString();
+                            btn2.Name = "btnEkonomi" + (butonNo - 1);
+                            if (btn2.BackColor != Color.Blue)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Gray;
+                                sayac++;
+                            }
+                        }
+                        else if (butonNo % 2 == 1)
+                        {
+                            btn2.Text = (butonNo + 1).ToString();
+                            btn2.Name = "btnEkonomi" + (butonNo + 1);
+                            if (btn2.BackColor != Color.Blue)
+                            {
+                                btn.Name = "btnEkonomi" + butonNo;
+                                btn.BackColor = Color.Gray;
+                                sayac++;
+                            }
+                        }
+
+                        //btn.BackColor = Color.Green;
+                        //btn.Enabled = false;
+                    }
+                }
+                else if (rdoBusinessErkek.Checked == true)
+                {
+                    if (butonNo % 2 == 0)
+                    {
+                        btn2.Text = (butonNo - 1).ToString();
+                        btn2.Name = "btnBusiness" + (butonNo - 1);
+                        if (btn2.BackColor != Color.Blue)
+                        {
+                            btn.Name = "btnBusiness" + butonNo;
+                            btn.BackColor = Color.Gray;
+                            sayac++;
+                        }
+                    }
+                    else if (butonNo % 2 == 1)
+                    {
+                        btn2.Text = (butonNo + 1).ToString();
+                        btn2.Name = "btnBusiness" + (butonNo + 1);
+                        if (btn2.BackColor != Color.Blue)
+                        {
+                            btn.Name = "btnBusiness" + butonNo;
+                            btn.BackColor = Color.Gray;
+                            sayac++;
+                        }
+                    }
+                }
+                else if (rdoBusinessKadin.Checked == true)
+                {
+                    if (butonNo % 2 == 0)
+                    {
+                        btn2.Text = (butonNo - 1).ToString();
+                        btn2.Name = "btnBusiness" + (butonNo - 1);
+                        if (btn2.BackColor != Color.Blue)
+                        {
+                            btn.Name = "btnBusiness" + butonNo;
+                            btn.BackColor = Color.Gray;
+                            sayac++;
+                        }
+                    }
+                    else if (butonNo % 2 == 1)
+                    {
+                        btn2.Text = (butonNo + 1).ToString();
+                        btn2.Name = "btnBusiness" + (butonNo + 1);
+                        if (btn2.BackColor != Color.Blue)
+                        {
+                            btn.Name = "btnBusiness" + butonNo;
+                            btn.BackColor = Color.Gray;
+                            sayac++;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void btnGidisGelisSecim_Click(object sender, EventArgs e)
         {
@@ -295,5 +443,7 @@ namespace UI
 
             //this.Hide();
         }
+
+
     }
 }

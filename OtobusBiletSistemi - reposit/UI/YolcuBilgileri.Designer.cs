@@ -37,6 +37,7 @@
             this.chkYemekli = new System.Windows.Forms.CheckBox();
             this.rdoCocuk = new System.Windows.Forms.RadioButton();
             this.rdoYetiskin = new System.Windows.Forms.RadioButton();
+            this.lblTekKisi1 = new System.Windows.Forms.Label();
             this.txtSoyad1 = new System.Windows.Forms.TextBox();
             this.txtAd1 = new System.Windows.Forms.TextBox();
             this.txtTc1 = new System.Windows.Forms.TextBox();
@@ -47,6 +48,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnIslem = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.pnlKisi1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,6 +64,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.pnlKisi1);
+            this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -80,6 +84,7 @@
             this.pnlKisi1.Controls.Add(this.chkYemekli);
             this.pnlKisi1.Controls.Add(this.rdoCocuk);
             this.pnlKisi1.Controls.Add(this.rdoYetiskin);
+            this.pnlKisi1.Controls.Add(this.lblTekKisi1);
             this.pnlKisi1.Controls.Add(this.txtSoyad1);
             this.pnlKisi1.Controls.Add(this.txtAd1);
             this.pnlKisi1.Controls.Add(this.txtTc1);
@@ -88,7 +93,7 @@
             this.pnlKisi1.Controls.Add(this.lblTekAdi);
             this.pnlKisi1.Enabled = false;
             this.pnlKisi1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pnlKisi1.Location = new System.Drawing.Point(496, 85);
+            this.pnlKisi1.Location = new System.Drawing.Point(6, 6);
             this.pnlKisi1.Name = "pnlKisi1";
             this.pnlKisi1.Size = new System.Drawing.Size(191, 197);
             this.pnlKisi1.TabIndex = 20;
@@ -154,6 +159,18 @@
             this.rdoYetiskin.Text = "Yetişkin";
             this.rdoYetiskin.UseVisualStyleBackColor = true;
             // 
+            // lblTekKisi1
+            // 
+            this.lblTekKisi1.AutoSize = true;
+            this.lblTekKisi1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.lblTekKisi1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTekKisi1.ForeColor = System.Drawing.Color.White;
+            this.lblTekKisi1.Location = new System.Drawing.Point(3, 0);
+            this.lblTekKisi1.Name = "lblTekKisi1";
+            this.lblTekKisi1.Size = new System.Drawing.Size(37, 15);
+            this.lblTekKisi1.TabIndex = 14;
+            this.lblTekKisi1.Text = "Kişi 1";
+            // 
             // txtSoyad1
             // 
             this.txtSoyad1.Location = new System.Drawing.Point(69, 93);
@@ -208,7 +225,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(544, 294);
+            this.button1.Location = new System.Drawing.Point(54, 215);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 29);
             this.button1.TabIndex = 21;
@@ -239,17 +256,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pnlKisi1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnIslem);
             this.Name = "YolcuBilgileri";
             this.Text = "YolcuBilgileri";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.pnlKisi1.ResumeLayout(false);
             this.pnlKisi1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -263,6 +279,7 @@
         private System.Windows.Forms.CheckBox chkYemekli;
         private System.Windows.Forms.RadioButton rdoCocuk;
         private System.Windows.Forms.RadioButton rdoYetiskin;
+        private System.Windows.Forms.Label lblTekKisi1;
         private System.Windows.Forms.TextBox txtSoyad1;
         private System.Windows.Forms.TextBox txtAd1;
         private System.Windows.Forms.TextBox txtTc1;
