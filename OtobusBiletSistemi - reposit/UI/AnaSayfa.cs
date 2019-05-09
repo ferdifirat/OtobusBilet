@@ -299,7 +299,7 @@ namespace UI
             else
             {
                 Button btn = (Button)sender;
-                btn2 = new Button();
+                string btn2;
                 butonNo = Convert.ToInt32(btn.Text);
                 if (btn.BackColor == Color.White)
                 {
@@ -307,9 +307,9 @@ namespace UI
                     {
                         if (butonNo % 2 == 0)
                         {
-                            btn2.Text = (butonNo - 1).ToString();
-                            btn2.Name = "btnEkonomi" + (butonNo - 1);
-                           
+                            btn2 = "btnEkonomi" + (butonNo - 1);
+                            Button button1 = this.Controls.Find(btn2, true).FirstOrDefault() as Button;
+
 
                             //foreach (Control item in panelClassic.Controls)
                             //{
@@ -325,7 +325,7 @@ namespace UI
                             //    }
                             //}
 
-                            if (btn2.BackColor != Color.Pink)
+                            if (button1.BackColor != Color.Pink)
                             {
                                 btn.Name = "btnEkonomi" + butonNo;
                                 btn.BackColor = Color.Green;
@@ -334,14 +334,14 @@ namespace UI
                         }
                         else if (butonNo % 2 == 1)
                         {
-                            btn2.Text = (butonNo + 1).ToString();
-                            btn2.Name = "btnEkonomi" + (butonNo + 1);
-                            if (btn2.BackColor != Color.Pink)
-                            {
-                                btn.Name = "btnEkonomi" + butonNo;
-                                btn.BackColor = Color.Green;
-                                sayac++;
-                            }
+                            //btn2.Text = (butonNo + 1).ToString();
+                            //btn2.Name = "btnEkonomi" + (butonNo + 1);
+                            //if (btn2.BackColor != Color.Pink)
+                            //{
+                            //    btn.Name = "btnEkonomi" + butonNo;
+                            //    btn.BackColor = Color.Green;
+                            //    sayac++;
+                            //}
                         }
 
                         //btn.BackColor = Color.Green;
@@ -350,87 +350,87 @@ namespace UI
                     }
                     else if (rdoEkonomiKadin.Checked == true)
                     {
-                        if (butonNo % 2 == 0)
-                        {
-                            btn2.Text = (butonNo - 1).ToString();
-                            btn2.Name = "btnEkonomi" + (butonNo - 1);
-                            if (btn2.BackColor != Color.Blue)
-                            {
-                                btn.Name = "btnEkonomi" + butonNo;
-                                btn.BackColor = Color.Gray;
-                                sayac++;
-                            }
-                        }
-                        else if (butonNo % 2 == 1)
-                        {
-                            btn2.Text = (butonNo + 1).ToString();
-                            btn2.Name = "btnEkonomi" + (butonNo + 1);
-                            if (btn2.BackColor != Color.Blue)
-                            {
-                                btn.Name = "btnEkonomi" + butonNo;
-                                btn.BackColor = Color.Gray;
-                                sayac++;
-                            }
-                        }
+                        //    if (butonNo % 2 == 0)
+                        //    {
+                        //        btn2.Text = (butonNo - 1).ToString();
+                        //        btn2.Name = "btnEkonomi" + (butonNo - 1);
+                        //        if (btn2.BackColor != Color.Blue)
+                        //        {
+                        //            btn.Name = "btnEkonomi" + butonNo;
+                        //            btn.BackColor = Color.Gray;
+                        //            sayac++;
+                        //        }
+                        //    }
+                        //    else if (butonNo % 2 == 1)
+                        //    {
+                        //        btn2.Text = (butonNo + 1).ToString();
+                        //        btn2.Name = "btnEkonomi" + (butonNo + 1);
+                        //        if (btn2.BackColor != Color.Blue)
+                        //        {
+                        //            btn.Name = "btnEkonomi" + butonNo;
+                        //            btn.BackColor = Color.Gray;
+                        //            sayac++;
+                        //        }
+                        //    }
 
-                        //btn.BackColor = Color.Green;
-                        //btn.Enabled = false;
+                        //    //btn.BackColor = Color.Green;
+                        //    //btn.Enabled = false;
+                        //}
                     }
-                }
-                else if (rdoBusinessErkek.Checked == true)
-                {
-                    if (butonNo % 2 == 0)
+                    else if (rdoBusinessErkek.Checked == true)
                     {
-                        btn2.Text = (butonNo - 1).ToString();
-                        btn2.Name = "btnBusiness" + (butonNo - 1);
-                        if (btn2.BackColor != Color.Blue)
-                        {
-                            btn.Name = "btnBusiness" + butonNo;
-                            btn.BackColor = Color.Gray;
-                            sayac++;
-                        }
+                        //if (butonNo % 2 == 0)
+                        //{
+                        //    btn2.Text = (butonNo - 1).ToString();
+                        //    btn2.Name = "btnBusiness" + (butonNo - 1);
+                        //    if (btn2.BackColor != Color.Blue)
+                        //    {
+                        //        btn.Name = "btnBusiness" + butonNo;
+                        //        btn.BackColor = Color.Gray;
+                        //        sayac++;
+                        //    }
+                        //}
+                        //else if (butonNo % 2 == 1)
+                        //{
+                        //    btn2.Text = (butonNo + 1).ToString();
+                        //    btn2.Name = "btnBusiness" + (butonNo + 1);
+                        //    if (btn2.BackColor != Color.Blue)
+                        //    {
+                        //        btn.Name = "btnBusiness" + butonNo;
+                        //        btn.BackColor = Color.Gray;
+                        //        sayac++;
+                        //    }
+                        //}
                     }
-                    else if (butonNo % 2 == 1)
+                    else if (rdoBusinessKadin.Checked == true)
                     {
-                        btn2.Text = (butonNo + 1).ToString();
-                        btn2.Name = "btnBusiness" + (butonNo + 1);
-                        if (btn2.BackColor != Color.Blue)
-                        {
-                            btn.Name = "btnBusiness" + butonNo;
-                            btn.BackColor = Color.Gray;
-                            sayac++;
-                        }
+                        //if (butonNo % 2 == 0)
+                        //{
+                        //    btn2.Text = (butonNo - 1).ToString();
+                        //    btn2.Name = "btnBusiness" + (butonNo - 1);
+                        //    if (btn2.BackColor != Color.Blue)
+                        //    {
+                        //        btn.Name = "btnBusiness" + butonNo;
+                        //        btn.BackColor = Color.Gray;
+                        //        sayac++;
+                        //    }
+                        //}
+                        //else if (butonNo % 2 == 1)
+                        //{
+                        //    btn2.Text = (butonNo + 1).ToString();
+                        //    btn2.Name = "btnBusiness" + (butonNo + 1);
+                        //    if (btn2.BackColor != Color.Blue)
+                        //    {
+                        //        btn.Name = "btnBusiness" + butonNo;
+                        //        btn.BackColor = Color.Gray;
+                        //        sayac++;
+                        //    }
+                        //}
                     }
-                }
-                else if (rdoBusinessKadin.Checked == true)
-                {
-                    if (butonNo % 2 == 0)
-                    {
-                        btn2.Text = (butonNo - 1).ToString();
-                        btn2.Name = "btnBusiness" + (butonNo - 1);
-                        if (btn2.BackColor != Color.Blue)
-                        {
-                            btn.Name = "btnBusiness" + butonNo;
-                            btn.BackColor = Color.Gray;
-                            sayac++;
-                        }
-                    }
-                    else if (butonNo % 2 == 1)
-                    {
-                        btn2.Text = (butonNo + 1).ToString();
-                        btn2.Name = "btnBusiness" + (butonNo + 1);
-                        if (btn2.BackColor != Color.Blue)
-                        {
-                            btn.Name = "btnBusiness" + butonNo;
-                            btn.BackColor = Color.Gray;
-                            sayac++;
-                        }
-                    }
-                }
 
+                }
             }
         }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
