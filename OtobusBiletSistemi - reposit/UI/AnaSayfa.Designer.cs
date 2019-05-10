@@ -40,8 +40,6 @@
             this.btnTekYonAra = new System.Windows.Forms.Button();
             this.tpOtobusBilgileri = new System.Windows.Forms.TabPage();
             this.tpUyeGirisi = new System.Windows.Forms.TabPage();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.btnOturumuKapat = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -71,26 +69,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tpKoltukSecimi = new System.Windows.Forms.TabPage();
-            this.pnlBusinessCinsiyet = new System.Windows.Forms.Panel();
-            this.rdoBusinessErkek = new System.Windows.Forms.RadioButton();
-            this.rdoBusinessKadin = new System.Windows.Forms.RadioButton();
-            this.btnSecimEkrani = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnKoltuk = new System.Windows.Forms.Button();
-            this.label65 = new System.Windows.Forms.Label();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.label66 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.pictureBox61 = new System.Windows.Forms.PictureBox();
-            this.pictureBox59 = new System.Windows.Forms.PictureBox();
-            this.btnOdeme = new System.Windows.Forms.Button();
-            this.panelClassic = new System.Windows.Forms.Panel();
             this.panelBusiness = new System.Windows.Forms.Panel();
-            this.btnBusiness28 = new System.Windows.Forms.Button();
             this.btnBusiness25 = new System.Windows.Forms.Button();
             this.btnBusiness8 = new System.Windows.Forms.Button();
             this.btnBusiness11 = new System.Windows.Forms.Button();
@@ -99,7 +78,6 @@
             this.btnBusiness22 = new System.Windows.Forms.Button();
             this.btnBusiness5 = new System.Windows.Forms.Button();
             this.btnBusiness2 = new System.Windows.Forms.Button();
-            this.btnBusiness29 = new System.Windows.Forms.Button();
             this.btnBusiness26 = new System.Windows.Forms.Button();
             this.btnBusiness9 = new System.Windows.Forms.Button();
             this.btnBusiness12 = new System.Windows.Forms.Button();
@@ -120,6 +98,24 @@
             this.btnBusiness4 = new System.Windows.Forms.Button();
             this.btnBusiness1 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pnlBusinessCinsiyet = new System.Windows.Forms.Panel();
+            this.rdoBusinessErkek = new System.Windows.Forms.RadioButton();
+            this.rdoBusinessKadin = new System.Windows.Forms.RadioButton();
+            this.btnSecimEkrani = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnKoltuk = new System.Windows.Forms.Button();
+            this.label65 = new System.Windows.Forms.Label();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.pictureBox61 = new System.Windows.Forms.PictureBox();
+            this.pictureBox59 = new System.Windows.Forms.PictureBox();
+            this.btnOdeme = new System.Windows.Forms.Button();
+            this.panelClassic = new System.Windows.Forms.Panel();
             this.btnEkonomi52 = new System.Windows.Forms.Button();
             this.btnEkonomi51 = new System.Windows.Forms.Button();
             this.btnEkonomi48 = new System.Windows.Forms.Button();
@@ -205,7 +201,6 @@
             this.pnlGidis.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGidis)).BeginInit();
             this.tpUyeGirisi.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tpSeferAra.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -213,6 +208,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.nmrYolcuSayisi)).BeginInit();
             this.tabControl2.SuspendLayout();
             this.tpKoltukSecimi.SuspendLayout();
+            this.panelBusiness.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.pnlBusinessCinsiyet.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
@@ -221,8 +218,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
             this.panelClassic.SuspendLayout();
-            this.panelBusiness.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlEkonomiCinsiyet.SuspendLayout();
             this.tpYolcuBilgileri.SuspendLayout();
@@ -339,7 +334,6 @@
             // 
             // tpUyeGirisi
             // 
-            this.tpUyeGirisi.Controls.Add(this.panel4);
             this.tpUyeGirisi.Controls.Add(this.btnOturumuKapat);
             this.tpUyeGirisi.Controls.Add(this.groupBox3);
             this.tpUyeGirisi.Location = new System.Drawing.Point(4, 22);
@@ -350,28 +344,11 @@
             this.tpUyeGirisi.Text = "Üye Girişi";
             this.tpUyeGirisi.UseVisualStyleBackColor = true;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Location = new System.Drawing.Point(437, 20);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(336, 227);
-            this.panel4.TabIndex = 19;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(18, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Bilet Bilgileriniz";
-            // 
             // btnOturumuKapat
             // 
             this.btnOturumuKapat.BackColor = System.Drawing.SystemColors.Control;
             this.btnOturumuKapat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnOturumuKapat.Location = new System.Drawing.Point(274, 245);
+            this.btnOturumuKapat.Location = new System.Drawing.Point(163, 248);
             this.btnOturumuKapat.Name = "btnOturumuKapat";
             this.btnOturumuKapat.Size = new System.Drawing.Size(90, 29);
             this.btnOturumuKapat.TabIndex = 18;
@@ -676,6 +653,348 @@
             this.tpKoltukSecimi.Text = "KoltukSeçimi";
             this.tpKoltukSecimi.UseVisualStyleBackColor = true;
             // 
+            // panelBusiness
+            // 
+            this.panelBusiness.Controls.Add(this.btnBusiness25);
+            this.panelBusiness.Controls.Add(this.btnBusiness8);
+            this.panelBusiness.Controls.Add(this.btnBusiness11);
+            this.panelBusiness.Controls.Add(this.btnBusiness14);
+            this.panelBusiness.Controls.Add(this.btnBusiness19);
+            this.panelBusiness.Controls.Add(this.btnBusiness22);
+            this.panelBusiness.Controls.Add(this.btnBusiness5);
+            this.panelBusiness.Controls.Add(this.btnBusiness2);
+            this.panelBusiness.Controls.Add(this.btnBusiness26);
+            this.panelBusiness.Controls.Add(this.btnBusiness9);
+            this.panelBusiness.Controls.Add(this.btnBusiness12);
+            this.panelBusiness.Controls.Add(this.btnBusiness15);
+            this.panelBusiness.Controls.Add(this.btnBusiness20);
+            this.panelBusiness.Controls.Add(this.btnBusiness23);
+            this.panelBusiness.Controls.Add(this.btnBusiness6);
+            this.panelBusiness.Controls.Add(this.btnBusiness3);
+            this.panelBusiness.Controls.Add(this.btnBusiness27);
+            this.panelBusiness.Controls.Add(this.btnBusiness24);
+            this.panelBusiness.Controls.Add(this.btnBusiness7);
+            this.panelBusiness.Controls.Add(this.btnBusiness10);
+            this.panelBusiness.Controls.Add(this.btnBusiness13);
+            this.panelBusiness.Controls.Add(this.btnBusiness16);
+            this.panelBusiness.Controls.Add(this.btnBusiness17);
+            this.panelBusiness.Controls.Add(this.btnBusiness18);
+            this.panelBusiness.Controls.Add(this.btnBusiness21);
+            this.panelBusiness.Controls.Add(this.btnBusiness4);
+            this.panelBusiness.Controls.Add(this.btnBusiness1);
+            this.panelBusiness.Controls.Add(this.pictureBox5);
+            this.panelBusiness.Location = new System.Drawing.Point(15, 48);
+            this.panelBusiness.Name = "panelBusiness";
+            this.panelBusiness.Size = new System.Drawing.Size(786, 273);
+            this.panelBusiness.TabIndex = 403;
+            // 
+            // btnBusiness25
+            // 
+            this.btnBusiness25.BackColor = System.Drawing.Color.White;
+            this.btnBusiness25.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness25.Location = new System.Drawing.Point(702, 200);
+            this.btnBusiness25.Name = "btnBusiness25";
+            this.btnBusiness25.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness25.TabIndex = 337;
+            this.btnBusiness25.Text = "25";
+            this.btnBusiness25.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness8
+            // 
+            this.btnBusiness8.BackColor = System.Drawing.Color.White;
+            this.btnBusiness8.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness8.Location = new System.Drawing.Point(220, 101);
+            this.btnBusiness8.Name = "btnBusiness8";
+            this.btnBusiness8.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness8.TabIndex = 336;
+            this.btnBusiness8.Text = "8";
+            this.btnBusiness8.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness11
+            // 
+            this.btnBusiness11.BackColor = System.Drawing.Color.White;
+            this.btnBusiness11.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness11.Location = new System.Drawing.Point(285, 101);
+            this.btnBusiness11.Name = "btnBusiness11";
+            this.btnBusiness11.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness11.TabIndex = 335;
+            this.btnBusiness11.Text = "11";
+            this.btnBusiness11.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness14
+            // 
+            this.btnBusiness14.BackColor = System.Drawing.Color.White;
+            this.btnBusiness14.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness14.Location = new System.Drawing.Point(343, 101);
+            this.btnBusiness14.Name = "btnBusiness14";
+            this.btnBusiness14.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness14.TabIndex = 334;
+            this.btnBusiness14.Text = "14";
+            this.btnBusiness14.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness19
+            // 
+            this.btnBusiness19.BackColor = System.Drawing.Color.White;
+            this.btnBusiness19.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness19.Location = new System.Drawing.Point(574, 201);
+            this.btnBusiness19.Name = "btnBusiness19";
+            this.btnBusiness19.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness19.TabIndex = 331;
+            this.btnBusiness19.Text = "19";
+            this.btnBusiness19.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness22
+            // 
+            this.btnBusiness22.BackColor = System.Drawing.Color.White;
+            this.btnBusiness22.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness22.Location = new System.Drawing.Point(636, 200);
+            this.btnBusiness22.Name = "btnBusiness22";
+            this.btnBusiness22.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness22.TabIndex = 330;
+            this.btnBusiness22.Text = "22";
+            this.btnBusiness22.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness5
+            // 
+            this.btnBusiness5.BackColor = System.Drawing.Color.White;
+            this.btnBusiness5.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness5.Location = new System.Drawing.Point(157, 101);
+            this.btnBusiness5.Name = "btnBusiness5";
+            this.btnBusiness5.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness5.TabIndex = 329;
+            this.btnBusiness5.Text = "5";
+            this.btnBusiness5.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness2
+            // 
+            this.btnBusiness2.BackColor = System.Drawing.Color.White;
+            this.btnBusiness2.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness2.Location = new System.Drawing.Point(97, 101);
+            this.btnBusiness2.Name = "btnBusiness2";
+            this.btnBusiness2.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness2.TabIndex = 328;
+            this.btnBusiness2.Text = "2";
+            this.btnBusiness2.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness26
+            // 
+            this.btnBusiness26.BackColor = System.Drawing.Color.White;
+            this.btnBusiness26.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness26.Location = new System.Drawing.Point(701, 101);
+            this.btnBusiness26.Name = "btnBusiness26";
+            this.btnBusiness26.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness26.TabIndex = 326;
+            this.btnBusiness26.Text = "26";
+            this.btnBusiness26.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness9
+            // 
+            this.btnBusiness9.BackColor = System.Drawing.Color.White;
+            this.btnBusiness9.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness9.Location = new System.Drawing.Point(220, 40);
+            this.btnBusiness9.Name = "btnBusiness9";
+            this.btnBusiness9.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness9.TabIndex = 325;
+            this.btnBusiness9.Text = "9";
+            this.btnBusiness9.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness12
+            // 
+            this.btnBusiness12.BackColor = System.Drawing.Color.White;
+            this.btnBusiness12.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness12.Location = new System.Drawing.Point(285, 40);
+            this.btnBusiness12.Name = "btnBusiness12";
+            this.btnBusiness12.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness12.TabIndex = 324;
+            this.btnBusiness12.Text = "12";
+            this.btnBusiness12.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness15
+            // 
+            this.btnBusiness15.BackColor = System.Drawing.Color.White;
+            this.btnBusiness15.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness15.Location = new System.Drawing.Point(343, 40);
+            this.btnBusiness15.Name = "btnBusiness15";
+            this.btnBusiness15.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness15.TabIndex = 323;
+            this.btnBusiness15.Text = "15";
+            this.btnBusiness15.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness20
+            // 
+            this.btnBusiness20.BackColor = System.Drawing.Color.White;
+            this.btnBusiness20.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness20.Location = new System.Drawing.Point(574, 101);
+            this.btnBusiness20.Name = "btnBusiness20";
+            this.btnBusiness20.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness20.TabIndex = 320;
+            this.btnBusiness20.Text = "20";
+            this.btnBusiness20.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness23
+            // 
+            this.btnBusiness23.BackColor = System.Drawing.Color.White;
+            this.btnBusiness23.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness23.Location = new System.Drawing.Point(636, 101);
+            this.btnBusiness23.Name = "btnBusiness23";
+            this.btnBusiness23.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness23.TabIndex = 319;
+            this.btnBusiness23.Text = "23";
+            this.btnBusiness23.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness6
+            // 
+            this.btnBusiness6.BackColor = System.Drawing.Color.White;
+            this.btnBusiness6.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness6.Location = new System.Drawing.Point(157, 40);
+            this.btnBusiness6.Name = "btnBusiness6";
+            this.btnBusiness6.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness6.TabIndex = 318;
+            this.btnBusiness6.Text = "6";
+            this.btnBusiness6.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness3
+            // 
+            this.btnBusiness3.BackColor = System.Drawing.Color.White;
+            this.btnBusiness3.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness3.Location = new System.Drawing.Point(97, 40);
+            this.btnBusiness3.Name = "btnBusiness3";
+            this.btnBusiness3.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness3.TabIndex = 317;
+            this.btnBusiness3.Text = "3";
+            this.btnBusiness3.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness27
+            // 
+            this.btnBusiness27.BackColor = System.Drawing.Color.White;
+            this.btnBusiness27.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness27.Location = new System.Drawing.Point(701, 40);
+            this.btnBusiness27.Name = "btnBusiness27";
+            this.btnBusiness27.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness27.TabIndex = 316;
+            this.btnBusiness27.Text = "27";
+            this.btnBusiness27.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness24
+            // 
+            this.btnBusiness24.BackColor = System.Drawing.Color.White;
+            this.btnBusiness24.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness24.Location = new System.Drawing.Point(636, 40);
+            this.btnBusiness24.Name = "btnBusiness24";
+            this.btnBusiness24.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness24.TabIndex = 315;
+            this.btnBusiness24.Text = "24";
+            this.btnBusiness24.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness7
+            // 
+            this.btnBusiness7.BackColor = System.Drawing.Color.White;
+            this.btnBusiness7.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness7.Location = new System.Drawing.Point(220, 200);
+            this.btnBusiness7.Name = "btnBusiness7";
+            this.btnBusiness7.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness7.TabIndex = 314;
+            this.btnBusiness7.Text = "7";
+            this.btnBusiness7.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness10
+            // 
+            this.btnBusiness10.BackColor = System.Drawing.Color.White;
+            this.btnBusiness10.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness10.Location = new System.Drawing.Point(285, 201);
+            this.btnBusiness10.Name = "btnBusiness10";
+            this.btnBusiness10.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness10.TabIndex = 313;
+            this.btnBusiness10.Text = "10";
+            this.btnBusiness10.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness13
+            // 
+            this.btnBusiness13.BackColor = System.Drawing.Color.White;
+            this.btnBusiness13.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness13.Location = new System.Drawing.Point(343, 201);
+            this.btnBusiness13.Name = "btnBusiness13";
+            this.btnBusiness13.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness13.TabIndex = 312;
+            this.btnBusiness13.Text = "13";
+            this.btnBusiness13.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness16
+            // 
+            this.btnBusiness16.BackColor = System.Drawing.Color.White;
+            this.btnBusiness16.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness16.Location = new System.Drawing.Point(510, 201);
+            this.btnBusiness16.Name = "btnBusiness16";
+            this.btnBusiness16.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness16.TabIndex = 311;
+            this.btnBusiness16.Text = "16";
+            this.btnBusiness16.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness17
+            // 
+            this.btnBusiness17.BackColor = System.Drawing.Color.White;
+            this.btnBusiness17.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness17.Location = new System.Drawing.Point(510, 101);
+            this.btnBusiness17.Name = "btnBusiness17";
+            this.btnBusiness17.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness17.TabIndex = 310;
+            this.btnBusiness17.Text = "17";
+            this.btnBusiness17.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness18
+            // 
+            this.btnBusiness18.BackColor = System.Drawing.Color.White;
+            this.btnBusiness18.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness18.Location = new System.Drawing.Point(510, 40);
+            this.btnBusiness18.Name = "btnBusiness18";
+            this.btnBusiness18.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness18.TabIndex = 309;
+            this.btnBusiness18.Text = "18";
+            this.btnBusiness18.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness21
+            // 
+            this.btnBusiness21.BackColor = System.Drawing.Color.White;
+            this.btnBusiness21.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness21.Location = new System.Drawing.Point(576, 40);
+            this.btnBusiness21.Name = "btnBusiness21";
+            this.btnBusiness21.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness21.TabIndex = 308;
+            this.btnBusiness21.Text = "21";
+            this.btnBusiness21.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness4
+            // 
+            this.btnBusiness4.BackColor = System.Drawing.Color.White;
+            this.btnBusiness4.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness4.Location = new System.Drawing.Point(157, 201);
+            this.btnBusiness4.Name = "btnBusiness4";
+            this.btnBusiness4.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness4.TabIndex = 307;
+            this.btnBusiness4.Text = "4";
+            this.btnBusiness4.UseVisualStyleBackColor = false;
+            // 
+            // btnBusiness1
+            // 
+            this.btnBusiness1.BackColor = System.Drawing.Color.White;
+            this.btnBusiness1.Image = global::UI.Properties.Resources.koltukson4;
+            this.btnBusiness1.Location = new System.Drawing.Point(97, 201);
+            this.btnBusiness1.Name = "btnBusiness1";
+            this.btnBusiness1.Size = new System.Drawing.Size(40, 40);
+            this.btnBusiness1.TabIndex = 306;
+            this.btnBusiness1.Text = "1";
+            this.btnBusiness1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::UI.Properties.Resources.business;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(780, 270);
+            this.pictureBox5.TabIndex = 177;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
             // pnlBusinessCinsiyet
             // 
             this.pnlBusinessCinsiyet.Controls.Add(this.rdoBusinessErkek);
@@ -924,372 +1243,6 @@
             this.panelClassic.Name = "panelClassic";
             this.panelClassic.Size = new System.Drawing.Size(781, 275);
             this.panelClassic.TabIndex = 395;
-            // 
-            // panelBusiness
-            // 
-            this.panelBusiness.Controls.Add(this.btnBusiness28);
-            this.panelBusiness.Controls.Add(this.btnBusiness25);
-            this.panelBusiness.Controls.Add(this.btnBusiness8);
-            this.panelBusiness.Controls.Add(this.btnBusiness11);
-            this.panelBusiness.Controls.Add(this.btnBusiness14);
-            this.panelBusiness.Controls.Add(this.btnBusiness19);
-            this.panelBusiness.Controls.Add(this.btnBusiness22);
-            this.panelBusiness.Controls.Add(this.btnBusiness5);
-            this.panelBusiness.Controls.Add(this.btnBusiness2);
-            this.panelBusiness.Controls.Add(this.btnBusiness29);
-            this.panelBusiness.Controls.Add(this.btnBusiness26);
-            this.panelBusiness.Controls.Add(this.btnBusiness9);
-            this.panelBusiness.Controls.Add(this.btnBusiness12);
-            this.panelBusiness.Controls.Add(this.btnBusiness15);
-            this.panelBusiness.Controls.Add(this.btnBusiness20);
-            this.panelBusiness.Controls.Add(this.btnBusiness23);
-            this.panelBusiness.Controls.Add(this.btnBusiness6);
-            this.panelBusiness.Controls.Add(this.btnBusiness3);
-            this.panelBusiness.Controls.Add(this.btnBusiness27);
-            this.panelBusiness.Controls.Add(this.btnBusiness24);
-            this.panelBusiness.Controls.Add(this.btnBusiness7);
-            this.panelBusiness.Controls.Add(this.btnBusiness10);
-            this.panelBusiness.Controls.Add(this.btnBusiness13);
-            this.panelBusiness.Controls.Add(this.btnBusiness16);
-            this.panelBusiness.Controls.Add(this.btnBusiness17);
-            this.panelBusiness.Controls.Add(this.btnBusiness18);
-            this.panelBusiness.Controls.Add(this.btnBusiness21);
-            this.panelBusiness.Controls.Add(this.btnBusiness4);
-            this.panelBusiness.Controls.Add(this.btnBusiness1);
-            this.panelBusiness.Controls.Add(this.pictureBox5);
-            this.panelBusiness.Location = new System.Drawing.Point(12, 47);
-            this.panelBusiness.Name = "panelBusiness";
-            this.panelBusiness.Size = new System.Drawing.Size(786, 273);
-            this.panelBusiness.TabIndex = 403;
-            // 
-            // btnBusiness28
-            // 
-            this.btnBusiness28.BackColor = System.Drawing.Color.White;
-            this.btnBusiness28.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness28.Location = new System.Drawing.Point(697, 101);
-            this.btnBusiness28.Name = "btnBusiness28";
-            this.btnBusiness28.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness28.TabIndex = 338;
-            this.btnBusiness28.Text = "28";
-            this.btnBusiness28.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness25
-            // 
-            this.btnBusiness25.BackColor = System.Drawing.Color.White;
-            this.btnBusiness25.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness25.Location = new System.Drawing.Point(638, 101);
-            this.btnBusiness25.Name = "btnBusiness25";
-            this.btnBusiness25.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness25.TabIndex = 337;
-            this.btnBusiness25.Text = "25";
-            this.btnBusiness25.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness8
-            // 
-            this.btnBusiness8.BackColor = System.Drawing.Color.White;
-            this.btnBusiness8.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness8.Location = new System.Drawing.Point(218, 101);
-            this.btnBusiness8.Name = "btnBusiness8";
-            this.btnBusiness8.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness8.TabIndex = 336;
-            this.btnBusiness8.Text = "8";
-            this.btnBusiness8.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness11
-            // 
-            this.btnBusiness11.BackColor = System.Drawing.Color.White;
-            this.btnBusiness11.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness11.Location = new System.Drawing.Point(278, 102);
-            this.btnBusiness11.Name = "btnBusiness11";
-            this.btnBusiness11.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness11.TabIndex = 335;
-            this.btnBusiness11.Text = "11";
-            this.btnBusiness11.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness14
-            // 
-            this.btnBusiness14.BackColor = System.Drawing.Color.White;
-            this.btnBusiness14.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness14.Location = new System.Drawing.Point(336, 101);
-            this.btnBusiness14.Name = "btnBusiness14";
-            this.btnBusiness14.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness14.TabIndex = 334;
-            this.btnBusiness14.Text = "14";
-            this.btnBusiness14.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness19
-            // 
-            this.btnBusiness19.BackColor = System.Drawing.Color.White;
-            this.btnBusiness19.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness19.Location = new System.Drawing.Point(503, 101);
-            this.btnBusiness19.Name = "btnBusiness19";
-            this.btnBusiness19.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness19.TabIndex = 331;
-            this.btnBusiness19.Text = "19";
-            this.btnBusiness19.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness22
-            // 
-            this.btnBusiness22.BackColor = System.Drawing.Color.White;
-            this.btnBusiness22.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness22.Location = new System.Drawing.Point(567, 101);
-            this.btnBusiness22.Name = "btnBusiness22";
-            this.btnBusiness22.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness22.TabIndex = 330;
-            this.btnBusiness22.Text = "22";
-            this.btnBusiness22.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness5
-            // 
-            this.btnBusiness5.BackColor = System.Drawing.Color.White;
-            this.btnBusiness5.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness5.Location = new System.Drawing.Point(161, 101);
-            this.btnBusiness5.Name = "btnBusiness5";
-            this.btnBusiness5.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness5.TabIndex = 329;
-            this.btnBusiness5.Text = "5";
-            this.btnBusiness5.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness2
-            // 
-            this.btnBusiness2.BackColor = System.Drawing.Color.White;
-            this.btnBusiness2.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness2.Location = new System.Drawing.Point(100, 101);
-            this.btnBusiness2.Name = "btnBusiness2";
-            this.btnBusiness2.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness2.TabIndex = 328;
-            this.btnBusiness2.Text = "2";
-            this.btnBusiness2.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness29
-            // 
-            this.btnBusiness29.BackColor = System.Drawing.Color.White;
-            this.btnBusiness29.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness29.Location = new System.Drawing.Point(694, 40);
-            this.btnBusiness29.Name = "btnBusiness29";
-            this.btnBusiness29.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness29.TabIndex = 327;
-            this.btnBusiness29.Text = "29";
-            this.btnBusiness29.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness26
-            // 
-            this.btnBusiness26.BackColor = System.Drawing.Color.White;
-            this.btnBusiness26.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness26.Location = new System.Drawing.Point(635, 40);
-            this.btnBusiness26.Name = "btnBusiness26";
-            this.btnBusiness26.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness26.TabIndex = 326;
-            this.btnBusiness26.Text = "26";
-            this.btnBusiness26.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness9
-            // 
-            this.btnBusiness9.BackColor = System.Drawing.Color.White;
-            this.btnBusiness9.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness9.Location = new System.Drawing.Point(215, 40);
-            this.btnBusiness9.Name = "btnBusiness9";
-            this.btnBusiness9.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness9.TabIndex = 325;
-            this.btnBusiness9.Text = "9";
-            this.btnBusiness9.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness12
-            // 
-            this.btnBusiness12.BackColor = System.Drawing.Color.White;
-            this.btnBusiness12.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness12.Location = new System.Drawing.Point(275, 41);
-            this.btnBusiness12.Name = "btnBusiness12";
-            this.btnBusiness12.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness12.TabIndex = 324;
-            this.btnBusiness12.Text = "12";
-            this.btnBusiness12.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness15
-            // 
-            this.btnBusiness15.BackColor = System.Drawing.Color.White;
-            this.btnBusiness15.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness15.Location = new System.Drawing.Point(333, 40);
-            this.btnBusiness15.Name = "btnBusiness15";
-            this.btnBusiness15.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness15.TabIndex = 323;
-            this.btnBusiness15.Text = "15";
-            this.btnBusiness15.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness20
-            // 
-            this.btnBusiness20.BackColor = System.Drawing.Color.White;
-            this.btnBusiness20.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness20.Location = new System.Drawing.Point(500, 40);
-            this.btnBusiness20.Name = "btnBusiness20";
-            this.btnBusiness20.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness20.TabIndex = 320;
-            this.btnBusiness20.Text = "20";
-            this.btnBusiness20.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness23
-            // 
-            this.btnBusiness23.BackColor = System.Drawing.Color.White;
-            this.btnBusiness23.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness23.Location = new System.Drawing.Point(564, 40);
-            this.btnBusiness23.Name = "btnBusiness23";
-            this.btnBusiness23.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness23.TabIndex = 319;
-            this.btnBusiness23.Text = "23";
-            this.btnBusiness23.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness6
-            // 
-            this.btnBusiness6.BackColor = System.Drawing.Color.White;
-            this.btnBusiness6.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness6.Location = new System.Drawing.Point(158, 40);
-            this.btnBusiness6.Name = "btnBusiness6";
-            this.btnBusiness6.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness6.TabIndex = 318;
-            this.btnBusiness6.Text = "6";
-            this.btnBusiness6.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness3
-            // 
-            this.btnBusiness3.BackColor = System.Drawing.Color.White;
-            this.btnBusiness3.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness3.Location = new System.Drawing.Point(97, 40);
-            this.btnBusiness3.Name = "btnBusiness3";
-            this.btnBusiness3.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness3.TabIndex = 317;
-            this.btnBusiness3.Text = "3";
-            this.btnBusiness3.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness27
-            // 
-            this.btnBusiness27.BackColor = System.Drawing.Color.White;
-            this.btnBusiness27.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness27.Location = new System.Drawing.Point(697, 200);
-            this.btnBusiness27.Name = "btnBusiness27";
-            this.btnBusiness27.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness27.TabIndex = 316;
-            this.btnBusiness27.Text = "27";
-            this.btnBusiness27.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness24
-            // 
-            this.btnBusiness24.BackColor = System.Drawing.Color.White;
-            this.btnBusiness24.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness24.Location = new System.Drawing.Point(638, 200);
-            this.btnBusiness24.Name = "btnBusiness24";
-            this.btnBusiness24.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness24.TabIndex = 315;
-            this.btnBusiness24.Text = "24";
-            this.btnBusiness24.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness7
-            // 
-            this.btnBusiness7.BackColor = System.Drawing.Color.White;
-            this.btnBusiness7.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness7.Location = new System.Drawing.Point(218, 200);
-            this.btnBusiness7.Name = "btnBusiness7";
-            this.btnBusiness7.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness7.TabIndex = 314;
-            this.btnBusiness7.Text = "7";
-            this.btnBusiness7.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness10
-            // 
-            this.btnBusiness10.BackColor = System.Drawing.Color.White;
-            this.btnBusiness10.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness10.Location = new System.Drawing.Point(278, 201);
-            this.btnBusiness10.Name = "btnBusiness10";
-            this.btnBusiness10.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness10.TabIndex = 313;
-            this.btnBusiness10.Text = "10";
-            this.btnBusiness10.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness13
-            // 
-            this.btnBusiness13.BackColor = System.Drawing.Color.White;
-            this.btnBusiness13.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness13.Location = new System.Drawing.Point(336, 200);
-            this.btnBusiness13.Name = "btnBusiness13";
-            this.btnBusiness13.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness13.TabIndex = 312;
-            this.btnBusiness13.Text = "13";
-            this.btnBusiness13.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness16
-            // 
-            this.btnBusiness16.BackColor = System.Drawing.Color.White;
-            this.btnBusiness16.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness16.Location = new System.Drawing.Point(393, 200);
-            this.btnBusiness16.Name = "btnBusiness16";
-            this.btnBusiness16.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness16.TabIndex = 311;
-            this.btnBusiness16.Text = "16";
-            this.btnBusiness16.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness17
-            // 
-            this.btnBusiness17.BackColor = System.Drawing.Color.White;
-            this.btnBusiness17.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness17.Location = new System.Drawing.Point(444, 201);
-            this.btnBusiness17.Name = "btnBusiness17";
-            this.btnBusiness17.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness17.TabIndex = 310;
-            this.btnBusiness17.Text = "17";
-            this.btnBusiness17.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness18
-            // 
-            this.btnBusiness18.BackColor = System.Drawing.Color.White;
-            this.btnBusiness18.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness18.Location = new System.Drawing.Point(503, 200);
-            this.btnBusiness18.Name = "btnBusiness18";
-            this.btnBusiness18.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness18.TabIndex = 309;
-            this.btnBusiness18.Text = "18";
-            this.btnBusiness18.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness21
-            // 
-            this.btnBusiness21.BackColor = System.Drawing.Color.White;
-            this.btnBusiness21.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness21.Location = new System.Drawing.Point(567, 200);
-            this.btnBusiness21.Name = "btnBusiness21";
-            this.btnBusiness21.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness21.TabIndex = 308;
-            this.btnBusiness21.Text = "21";
-            this.btnBusiness21.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness4
-            // 
-            this.btnBusiness4.BackColor = System.Drawing.Color.White;
-            this.btnBusiness4.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness4.Location = new System.Drawing.Point(161, 200);
-            this.btnBusiness4.Name = "btnBusiness4";
-            this.btnBusiness4.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness4.TabIndex = 307;
-            this.btnBusiness4.Text = "4";
-            this.btnBusiness4.UseVisualStyleBackColor = false;
-            // 
-            // btnBusiness1
-            // 
-            this.btnBusiness1.BackColor = System.Drawing.Color.White;
-            this.btnBusiness1.Image = global::UI.Properties.Resources.koltukson4;
-            this.btnBusiness1.Location = new System.Drawing.Point(100, 200);
-            this.btnBusiness1.Name = "btnBusiness1";
-            this.btnBusiness1.Size = new System.Drawing.Size(40, 40);
-            this.btnBusiness1.TabIndex = 306;
-            this.btnBusiness1.Text = "1";
-            this.btnBusiness1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::UI.Properties.Resources.koltuksemasideneme;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(780, 270);
-            this.pictureBox5.TabIndex = 177;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // btnEkonomi52
             // 
@@ -2158,8 +2111,6 @@
             this.pnlGidis.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGidis)).EndInit();
             this.tpUyeGirisi.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.tpSeferAra.ResumeLayout(false);
@@ -2171,6 +2122,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.nmrYolcuSayisi)).EndInit();
             this.tabControl2.ResumeLayout(false);
             this.tpKoltukSecimi.ResumeLayout(false);
+            this.panelBusiness.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.pnlBusinessCinsiyet.ResumeLayout(false);
             this.pnlBusinessCinsiyet.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -2181,8 +2134,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
             this.panelClassic.ResumeLayout(false);
-            this.panelBusiness.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlEkonomiCinsiyet.ResumeLayout(false);
             this.pnlEkonomiCinsiyet.PerformLayout();
@@ -2264,7 +2215,6 @@
         private System.Windows.Forms.Button btnBusiness18;
         private System.Windows.Forms.Button btnBusiness21;
         private System.Windows.Forms.Button btnBusiness4;
-        private System.Windows.Forms.Button btnBusiness28;
         private System.Windows.Forms.Button btnBusiness25;
         private System.Windows.Forms.Button btnBusiness8;
         private System.Windows.Forms.Button btnBusiness11;
@@ -2273,7 +2223,6 @@
         private System.Windows.Forms.Button btnBusiness22;
         private System.Windows.Forms.Button btnBusiness5;
         private System.Windows.Forms.Button btnBusiness2;
-        private System.Windows.Forms.Button btnBusiness29;
         private System.Windows.Forms.Button btnBusiness26;
         private System.Windows.Forms.Button btnBusiness9;
         private System.Windows.Forms.Button btnBusiness12;
@@ -2289,8 +2238,6 @@
         private System.Windows.Forms.Panel pnlBusinessCinsiyet;
         private System.Windows.Forms.RadioButton rdoBusinessErkek;
         private System.Windows.Forms.RadioButton rdoBusinessKadin;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TabPage tpYolcuBilgileri;
         private System.Windows.Forms.Panel pnlKisi1;
         private System.Windows.Forms.Label label12;
