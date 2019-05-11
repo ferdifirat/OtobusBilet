@@ -58,18 +58,20 @@ namespace UI
                     string panelKisiler = "pnlKisi" + "" + i;
                     string labelKoltukNumarası = "lblKoltukNumarasi" + "" + i;
 
+                    
                     Panel pnl = this.Controls.Find(panelKisiler, true).FirstOrDefault() as Panel;
                     RadioButton radioErkek = this.Controls.Find(rdoErkek, true).FirstOrDefault() as RadioButton;
                     RadioButton radioKadin = this.Controls.Find(rdoKadin, true).FirstOrDefault() as RadioButton;
                     Label lbl = this.Controls.Find(labelKoltukNumarası, true).FirstOrDefault() as Label;
 
+                    
                     pnl.Visible = true;
 
                     if (koltukBilgileri[i].Cinsiyet == true)
                         radioErkek.Checked = true;
                     else
                         radioKadin.Checked = true;
-                    lblKoltukNumarasi0.Text = koltukBilgileri[i].KoltukNumarasi.ToString();
+                    lbl.Text = koltukBilgileri[i].KoltukNumarasi.ToString();
 
 
                     radioErkek.Enabled = false;
@@ -111,6 +113,8 @@ namespace UI
 
         private void InitializeTourSearch()
         {
+
+
             var duraks = _durakRepository.GetAll().ToList();
             foreach (var i in duraks)
             {
@@ -145,9 +149,10 @@ namespace UI
             pnlKisi2.Visible = false;
             pnlKisi3.Visible = false;
 
-
-
-
+            //Tableri gizle
+             tbOtobusOtomasyonu.Appearance = TabAppearance.FlatButtons;
+            tbOtobusOtomasyonu.ItemSize = new Size(0, 1);
+            tbOtobusOtomasyonu.SizeMode = TabSizeMode.Fixed;
         }
 
         private void rdoGidisDonus_CheckedChanged(object sender, EventArgs e)
@@ -231,7 +236,6 @@ namespace UI
             var selectedValue = (ComboBoxItem)selectedItem;
             return selectedValue.Value;
 
-
         }
 
         private void btnUyeOl_Click(object sender, EventArgs e)
@@ -259,7 +263,6 @@ namespace UI
                 user = kullanici;
                 grpUyeGirisEkrani.Enabled = false;
                 btnOturumuKapat.Visible = true;
-                tbOtobusOtomasyonu.SelectedIndex = 1;
             }
 
 
@@ -272,6 +275,7 @@ namespace UI
 
             txtMail.Text = "";
             txtSifre.Text = "";
+            btnOturumuKapat.Visible = false;
 
         }
 
@@ -327,14 +331,14 @@ namespace UI
 
         private void btnOdeme_Click(object sender, EventArgs e)
         {
-            if (koltukBilgileri.Count != 0)
+            if (koltukBilgileri.Count != 0 && yolcuSayaci==yolcuSayisi)
             {
                 YolcuBilgileriniDoldur();
-                tbOtobusOtomasyonu.SelectedIndex = 5;
+                tbOtobusOtomasyonu.SelectedIndex = 4;
             }
             else
             {
-                MessageBox.Show("Lütfen bir koltuk seçiniz..");
+                MessageBox.Show("Lütfen yolcu sayısı kadar koltuk seçimi yapınız..");
             }
 
         }
@@ -359,11 +363,11 @@ namespace UI
         int butonNumarasi;
         bool cinsiyetSecimi;
         decimal yolcuSayaci = 0;
+        Button secilenKoltuk;
         List<KoltukBilgisi> koltukBilgileri = new List<KoltukBilgisi>();
         private void btnKoltuk_Click(object sender, EventArgs e)
         {
-
-            Button secilenKoltuk;
+            
             if (yolcuSayisi == yolcuSayaci)
             {
                 secilenKoltuk = (Button)sender;
@@ -380,7 +384,6 @@ namespace UI
                     MessageBox.Show("Girdiğiniz yolcu sayısına ulaştınız daha fazla koltuk seçemezsiniz.");
                 }
             }
-
             else
             {
                 secilenKoltuk = (Button)sender;
@@ -435,7 +438,7 @@ namespace UI
                         }
                         else if (butonNumarasi % 2 == 1)
                         {
-                            arananKoltuk = "btnEkonomi" + (butonNumarasi - 1);
+                            arananKoltuk = "btnEkonomi" + (butonNumarasi + 1);
                             Button btnKontrol = this.Controls.Find(arananKoltuk, true).FirstOrDefault() as Button;
 
                             if (btnKontrol.BackColor != Color.Blue)
@@ -503,7 +506,8 @@ namespace UI
                     koltukBilgileri.Add(new KoltukBilgisi
                     {
                         KoltukNumarasi = butonNumarasi,
-                        Cinsiyet = cinsiyetSecimi
+                        Cinsiyet = cinsiyetSecimi,
+                        
                     });
                 }
             }
@@ -531,6 +535,88 @@ namespace UI
         private void tpKoltukSecimi_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void rdoYetiskin_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdoCocuk_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOdemeYap_Click(object sender, EventArgs e)
+        {
+            _kullaniciRepository.Add(new Kullanici
+            {
+                FirstName = txtAd1.Text,
+                SureName = txtSoyad1.Text,
+                CitizienshipNumber = txtTc1.Text,
+                KullaniciTipiId = 1,
+                Gender = rdoErkek0.Checked
+                 
+            });
+            _biletRepository.Add(new Bilet {
+                BiletDurumu = true,  //düzenlenecek
+                KoltukNo= Convert.ToInt32(lblKoltukNumarasi0.Text)
+                //eksik
+            });
+            _uow.SaveChanges();
+            if (pnlKisi1.Visible == true)
+            {
+                _kullaniciRepository.Add(new Kullanici
+                {
+                    FirstName = txtAd1.Text,
+                    SureName = txtSoyad1.Text,
+                    CitizienshipNumber = txtTc1.Text,
+                    KullaniciTipiId = 1,
+                    Gender = rdoErkek0.Checked
+
+                });
+                _biletRepository.Add(new Bilet
+                {
+                    BiletDurumu = true,  //düzenlenecek
+                    KoltukNo = Convert.ToInt32(lblKoltukNumarasi0.Text)
+                    //eksik
+                });
+                _uow.SaveChanges();
+            } 
+            //Belki kısa bi yol?
+
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            tbOtobusOtomasyonu.SelectedIndex = 1;
+        }
+
+        private void btnSecimEkrani_Click(object sender, EventArgs e)
+        {
+            
+            DialogResult dr = MessageBox.Show("Sefer seçim ekranına döndüğünüzde seçili koltuklar iptal edilecektir. Devam etmek istiyor musunuz?", "UYARI", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr==DialogResult.Yes)
+            {
+                tbOtobusOtomasyonu.SelectedIndex = 2;
+                foreach (Control item in panelClassic.Controls)
+                {
+                    if(item is Button && item.BackColor==Color.Lime)
+                    {
+                        item.BackColor = Color.White;
+                    }
+                }
+                koltukBilgileri.Clear();
+                yolcuSayaci = 0;
+            }
+          
+        }
+
+        private void btnTekYonAra_Click(object sender, EventArgs e)
+        {
+            tbOtobusOtomasyonu.SelectedIndex=1;
         }
 
         private void btnGidisGelisSecim_Click(object sender, EventArgs e)
