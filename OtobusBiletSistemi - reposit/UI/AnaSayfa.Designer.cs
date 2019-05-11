@@ -40,6 +40,30 @@
             this.btnTekYonAra = new System.Windows.Forms.Button();
             this.tpOtobusBilgileri = new System.Windows.Forms.TabPage();
             this.tpUyeGirisi = new System.Windows.Forms.TabPage();
+            this.pnlBiletBilgiEkrani = new System.Windows.Forms.Panel();
+            this.txtNereye = new System.Windows.Forms.TextBox();
+            this.txtVarisTarihi = new System.Windows.Forms.TextBox();
+            this.txtSeyehatSigortasi = new System.Windows.Forms.TextBox();
+            this.txtNereden = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.txtYemekSecimi = new System.Windows.Forms.TextBox();
+            this.txtKoltukNo = new System.Windows.Forms.TextBox();
+            this.txtCinsiyet = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.txtTcNo = new System.Windows.Forms.TextBox();
+            this.txtKalkisTarihi = new System.Windows.Forms.TextBox();
+            this.txtYolcuAdSoyad = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtBiletNo = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnOturumuKapat = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -201,6 +225,7 @@
             this.pnlGidis.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGidis)).BeginInit();
             this.tpUyeGirisi.SuspendLayout();
+            this.pnlBiletBilgiEkrani.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tpSeferAra.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -230,7 +255,7 @@
             this.tpSeferSecimi.Location = new System.Drawing.Point(4, 22);
             this.tpSeferSecimi.Name = "tpSeferSecimi";
             this.tpSeferSecimi.Padding = new System.Windows.Forms.Padding(3);
-            this.tpSeferSecimi.Size = new System.Drawing.Size(834, 484);
+            this.tpSeferSecimi.Size = new System.Drawing.Size(602, 240);
             this.tpSeferSecimi.TabIndex = 3;
             this.tpSeferSecimi.Text = "Sefer Seçimi";
             this.tpSeferSecimi.UseVisualStyleBackColor = true;
@@ -242,7 +267,7 @@
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox4.Location = new System.Drawing.Point(3, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(828, 478);
+            this.groupBox4.Size = new System.Drawing.Size(596, 234);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             // 
@@ -252,9 +277,9 @@
             this.pnlDonus.Controls.Add(this.btnGidisGelisSecim);
             this.pnlDonus.Controls.Add(this.btnGidisGelisAra);
             this.pnlDonus.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlDonus.Location = new System.Drawing.Point(3, 249);
+            this.pnlDonus.Location = new System.Drawing.Point(3, 5);
             this.pnlDonus.Name = "pnlDonus";
-            this.pnlDonus.Size = new System.Drawing.Size(822, 226);
+            this.pnlDonus.Size = new System.Drawing.Size(590, 226);
             this.pnlDonus.TabIndex = 40;
             // 
             // dataGridDonus
@@ -292,7 +317,7 @@
             this.pnlGidis.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlGidis.Location = new System.Drawing.Point(3, 16);
             this.pnlGidis.Name = "pnlGidis";
-            this.pnlGidis.Size = new System.Drawing.Size(822, 227);
+            this.pnlGidis.Size = new System.Drawing.Size(590, 227);
             this.pnlGidis.TabIndex = 39;
             // 
             // dataGridGidis
@@ -327,28 +352,249 @@
             // 
             this.tpOtobusBilgileri.Location = new System.Drawing.Point(4, 22);
             this.tpOtobusBilgileri.Name = "tpOtobusBilgileri";
-            this.tpOtobusBilgileri.Size = new System.Drawing.Size(834, 484);
+            this.tpOtobusBilgileri.Size = new System.Drawing.Size(602, 240);
             this.tpOtobusBilgileri.TabIndex = 2;
             this.tpOtobusBilgileri.Text = "Otobüs Bilgileri";
             this.tpOtobusBilgileri.UseVisualStyleBackColor = true;
             // 
             // tpUyeGirisi
             // 
+            this.tpUyeGirisi.Controls.Add(this.pnlBiletBilgiEkrani);
             this.tpUyeGirisi.Controls.Add(this.btnOturumuKapat);
             this.tpUyeGirisi.Controls.Add(this.groupBox3);
             this.tpUyeGirisi.Location = new System.Drawing.Point(4, 22);
             this.tpUyeGirisi.Name = "tpUyeGirisi";
             this.tpUyeGirisi.Padding = new System.Windows.Forms.Padding(3);
-            this.tpUyeGirisi.Size = new System.Drawing.Size(834, 484);
+            this.tpUyeGirisi.Size = new System.Drawing.Size(602, 240);
             this.tpUyeGirisi.TabIndex = 1;
             this.tpUyeGirisi.Text = "Üye Girişi";
             this.tpUyeGirisi.UseVisualStyleBackColor = true;
+            // 
+            // pnlBiletBilgiEkrani
+            // 
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtNereye);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtVarisTarihi);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtSeyehatSigortasi);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtNereden);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label22);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtYemekSecimi);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtKoltukNo);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtCinsiyet);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label23);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtTcNo);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtKalkisTarihi);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtYolcuAdSoyad);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label21);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label20);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label19);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label16);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label15);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label17);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label18);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label14);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.txtBiletNo);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label13);
+            this.pnlBiletBilgiEkrani.Controls.Add(this.label6);
+            this.pnlBiletBilgiEkrani.Location = new System.Drawing.Point(172, 7);
+            this.pnlBiletBilgiEkrani.Name = "pnlBiletBilgiEkrani";
+            this.pnlBiletBilgiEkrani.Size = new System.Drawing.Size(421, 206);
+            this.pnlBiletBilgiEkrani.TabIndex = 19;
+            this.pnlBiletBilgiEkrani.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBiletBilgiEkrani_Paint);
+            // 
+            // txtNereye
+            // 
+            this.txtNereye.Location = new System.Drawing.Point(301, 133);
+            this.txtNereye.Name = "txtNereye";
+            this.txtNereye.Size = new System.Drawing.Size(113, 20);
+            this.txtNereye.TabIndex = 5;
+            // 
+            // txtVarisTarihi
+            // 
+            this.txtVarisTarihi.Location = new System.Drawing.Point(201, 93);
+            this.txtVarisTarihi.Name = "txtVarisTarihi";
+            this.txtVarisTarihi.Size = new System.Drawing.Size(194, 20);
+            this.txtVarisTarihi.TabIndex = 2;
+            // 
+            // txtSeyehatSigortasi
+            // 
+            this.txtSeyehatSigortasi.Location = new System.Drawing.Point(301, 172);
+            this.txtSeyehatSigortasi.Name = "txtSeyehatSigortasi";
+            this.txtSeyehatSigortasi.Size = new System.Drawing.Size(113, 20);
+            this.txtSeyehatSigortasi.TabIndex = 2;
+            // 
+            // txtNereden
+            // 
+            this.txtNereden.Location = new System.Drawing.Point(162, 133);
+            this.txtNereden.Name = "txtNereden";
+            this.txtNereden.Size = new System.Drawing.Size(113, 20);
+            this.txtNereden.TabIndex = 6;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(301, 116);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(47, 13);
+            this.label22.TabIndex = 3;
+            this.label22.Text = "Nereye :";
+            // 
+            // txtYemekSecimi
+            // 
+            this.txtYemekSecimi.Location = new System.Drawing.Point(162, 172);
+            this.txtYemekSecimi.Name = "txtYemekSecimi";
+            this.txtYemekSecimi.Size = new System.Drawing.Size(113, 20);
+            this.txtYemekSecimi.TabIndex = 2;
+            // 
+            // txtKoltukNo
+            // 
+            this.txtKoltukNo.Location = new System.Drawing.Point(3, 172);
+            this.txtKoltukNo.Name = "txtKoltukNo";
+            this.txtKoltukNo.Size = new System.Drawing.Size(113, 20);
+            this.txtKoltukNo.TabIndex = 2;
+            // 
+            // txtCinsiyet
+            // 
+            this.txtCinsiyet.Location = new System.Drawing.Point(3, 132);
+            this.txtCinsiyet.Name = "txtCinsiyet";
+            this.txtCinsiyet.Size = new System.Drawing.Size(113, 20);
+            this.txtCinsiyet.TabIndex = 2;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(159, 116);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(54, 13);
+            this.label23.TabIndex = 4;
+            this.label23.Text = "Nereden :";
+            // 
+            // txtTcNo
+            // 
+            this.txtTcNo.Location = new System.Drawing.Point(3, 92);
+            this.txtTcNo.Name = "txtTcNo";
+            this.txtTcNo.Size = new System.Drawing.Size(113, 20);
+            this.txtTcNo.TabIndex = 2;
+            // 
+            // txtKalkisTarihi
+            // 
+            this.txtKalkisTarihi.Location = new System.Drawing.Point(201, 54);
+            this.txtKalkisTarihi.Name = "txtKalkisTarihi";
+            this.txtKalkisTarihi.Size = new System.Drawing.Size(194, 20);
+            this.txtKalkisTarihi.TabIndex = 2;
+            // 
+            // txtYolcuAdSoyad
+            // 
+            this.txtYolcuAdSoyad.Location = new System.Drawing.Point(3, 52);
+            this.txtYolcuAdSoyad.Name = "txtYolcuAdSoyad";
+            this.txtYolcuAdSoyad.Size = new System.Drawing.Size(171, 20);
+            this.txtYolcuAdSoyad.TabIndex = 2;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(301, 155);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(95, 13);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "Seyehat Sigortası :";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(162, 155);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(80, 13);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Yemek Seçimi :";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(3, 155);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(60, 13);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "Koltuk No :";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(3, 115);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(49, 13);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "Cinsiyet :";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(3, 75);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(44, 13);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "TC No :";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(201, 38);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(41, 13);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "Kalkış :";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(201, 77);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(36, 13);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "Varış :";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(3, 35);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(40, 13);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Yolcu :";
+            // 
+            // txtBiletNo
+            // 
+            this.txtBiletNo.Location = new System.Drawing.Point(257, 9);
+            this.txtBiletNo.Name = "txtBiletNo";
+            this.txtBiletNo.Size = new System.Drawing.Size(113, 20);
+            this.txtBiletNo.TabIndex = 2;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(201, 12);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(50, 13);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Bilet No :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(6, 6);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(189, 22);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "BİLET BİLGİLERİNİZ ";
             // 
             // btnOturumuKapat
             // 
             this.btnOturumuKapat.BackColor = System.Drawing.SystemColors.Control;
             this.btnOturumuKapat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnOturumuKapat.Location = new System.Drawing.Point(163, 248);
+            this.btnOturumuKapat.Location = new System.Drawing.Point(37, 204);
             this.btnOturumuKapat.Name = "btnOturumuKapat";
             this.btnOturumuKapat.Size = new System.Drawing.Size(90, 29);
             this.btnOturumuKapat.TabIndex = 18;
@@ -365,9 +611,9 @@
             this.groupBox3.Controls.Add(this.txtMail);
             this.groupBox3.Controls.Add(this.btnGiris);
             this.groupBox3.Controls.Add(this.txtSifre);
-            this.groupBox3.Location = new System.Drawing.Point(24, 20);
+            this.groupBox3.Location = new System.Drawing.Point(6, 6);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(391, 205);
+            this.groupBox3.Size = new System.Drawing.Size(159, 192);
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
             // 
@@ -375,7 +621,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(15, 16);
+            this.label8.Location = new System.Drawing.Point(6, 16);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 13);
             this.label8.TabIndex = 11;
@@ -385,7 +631,7 @@
             // 
             this.btnUyeOl.BackColor = System.Drawing.SystemColors.Control;
             this.btnUyeOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnUyeOl.Location = new System.Drawing.Point(250, 131);
+            this.btnUyeOl.Location = new System.Drawing.Point(31, 155);
             this.btnUyeOl.Name = "btnUyeOl";
             this.btnUyeOl.Size = new System.Drawing.Size(90, 29);
             this.btnUyeOl.TabIndex = 17;
@@ -397,7 +643,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(15, 72);
+            this.label9.Location = new System.Drawing.Point(6, 55);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(28, 13);
             this.label9.TabIndex = 12;
@@ -407,7 +653,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(218, 103);
+            this.label7.Location = new System.Drawing.Point(15, 139);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 13);
             this.label7.TabIndex = 16;
@@ -415,7 +661,7 @@
             // 
             // txtMail
             // 
-            this.txtMail.Location = new System.Drawing.Point(18, 40);
+            this.txtMail.Location = new System.Drawing.Point(6, 32);
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(140, 20);
             this.txtMail.TabIndex = 14;
@@ -424,7 +670,7 @@
             // 
             this.btnGiris.BackColor = System.Drawing.SystemColors.Control;
             this.btnGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGiris.Location = new System.Drawing.Point(18, 131);
+            this.btnGiris.Location = new System.Drawing.Point(31, 97);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(90, 29);
             this.btnGiris.TabIndex = 15;
@@ -434,7 +680,7 @@
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(18, 96);
+            this.txtSifre.Location = new System.Drawing.Point(6, 71);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(140, 20);
             this.txtSifre.TabIndex = 13;
@@ -457,7 +703,7 @@
             this.tpSeferAra.Location = new System.Drawing.Point(4, 22);
             this.tpSeferAra.Name = "tpSeferAra";
             this.tpSeferAra.Padding = new System.Windows.Forms.Padding(3);
-            this.tpSeferAra.Size = new System.Drawing.Size(834, 484);
+            this.tpSeferAra.Size = new System.Drawing.Size(602, 240);
             this.tpSeferAra.TabIndex = 0;
             this.tpSeferAra.Text = "Sefer Ara";
             this.tpSeferAra.UseVisualStyleBackColor = true;
@@ -634,7 +880,7 @@
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(842, 510);
+            this.tabControl2.Size = new System.Drawing.Size(610, 266);
             this.tabControl2.TabIndex = 3;
             // 
             // tpKoltukSecimi
@@ -648,7 +894,7 @@
             this.tpKoltukSecimi.Controls.Add(this.pnlEkonomiCinsiyet);
             this.tpKoltukSecimi.Location = new System.Drawing.Point(4, 22);
             this.tpKoltukSecimi.Name = "tpKoltukSecimi";
-            this.tpKoltukSecimi.Size = new System.Drawing.Size(834, 484);
+            this.tpKoltukSecimi.Size = new System.Drawing.Size(602, 240);
             this.tpKoltukSecimi.TabIndex = 4;
             this.tpKoltukSecimi.Text = "KoltukSeçimi";
             this.tpKoltukSecimi.UseVisualStyleBackColor = true;
@@ -1912,7 +2158,7 @@
             this.tpYolcuBilgileri.Controls.Add(this.pnlKisi1);
             this.tpYolcuBilgileri.Location = new System.Drawing.Point(4, 22);
             this.tpYolcuBilgileri.Name = "tpYolcuBilgileri";
-            this.tpYolcuBilgileri.Size = new System.Drawing.Size(834, 484);
+            this.tpYolcuBilgileri.Size = new System.Drawing.Size(602, 240);
             this.tpYolcuBilgileri.TabIndex = 5;
             this.tpYolcuBilgileri.Text = "Yolcu Bilgileri";
             this.tpYolcuBilgileri.UseVisualStyleBackColor = true;
@@ -2099,7 +2345,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(842, 510);
+            this.ClientSize = new System.Drawing.Size(610, 266);
             this.Controls.Add(this.tabControl2);
             this.Name = "AnaSayfa";
             this.Text = "AnaSayfa";
@@ -2111,6 +2357,8 @@
             this.pnlGidis.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGidis)).EndInit();
             this.tpUyeGirisi.ResumeLayout(false);
+            this.pnlBiletBilgiEkrani.ResumeLayout(false);
+            this.pnlBiletBilgiEkrani.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.tpSeferAra.ResumeLayout(false);
@@ -2313,5 +2561,29 @@
         private System.Windows.Forms.Button btnEkonomi2;
         private System.Windows.Forms.Button btnEkonomi1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel pnlBiletBilgiEkrani;
+        private System.Windows.Forms.TextBox txtVarisTarihi;
+        private System.Windows.Forms.TextBox txtSeyehatSigortasi;
+        private System.Windows.Forms.TextBox txtYemekSecimi;
+        private System.Windows.Forms.TextBox txtKoltukNo;
+        private System.Windows.Forms.TextBox txtCinsiyet;
+        private System.Windows.Forms.TextBox txtTcNo;
+        private System.Windows.Forms.TextBox txtKalkisTarihi;
+        private System.Windows.Forms.TextBox txtYolcuAdSoyad;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txtBiletNo;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtNereye;
+        private System.Windows.Forms.TextBox txtNereden;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
     }
 }

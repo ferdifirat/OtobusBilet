@@ -27,7 +27,7 @@ namespace UI
         private IRepository<OtobusTipi> _otobusTipiRepository;
         private IRepository<Bilet> _biletRepository;
 
-
+        
         public Kullanici user = null;
         public List<Sefer> gidisSeferList = null;
         public List<Sefer> donusSeferList = null;
@@ -84,6 +84,8 @@ namespace UI
 
         private void StartUpComponentSettings()
         {
+            txtSifre.PasswordChar = '*';
+
             rdoSatis.Checked = true;
             rdoTekYon.Checked = true;
             nmrYolcuSayisi.Minimum = 1;
@@ -430,6 +432,11 @@ namespace UI
         }
 
         private void btnBusiness29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlBiletBilgiEkrani_Paint(object sender, PaintEventArgs e)
         {
 
         }

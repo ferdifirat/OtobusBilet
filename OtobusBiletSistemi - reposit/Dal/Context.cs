@@ -17,7 +17,7 @@ namespace Dal
 
             //BU KISMA KENDİ CONNECTION STRING YAPINIZI EKLEYİNİZ !
 
-            Database.Connection.ConnectionString = "server = .; database = OtobusBiletlerDb2; uid = sa; pwd = 123";
+            Database.Connection.ConnectionString = "server = (localdb)\\mssqllocaldb; database = OtobusBiletlerDb2; uid = sa; pwd = 123";
             //Database.Connection.ConnectionString = "server = FIRAT; database = TrenBiletDb; Trusted_Connection = true;";
 
         }

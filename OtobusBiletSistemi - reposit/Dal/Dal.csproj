@@ -59,18 +59,6 @@
     <Compile Include="Mapping\RotaDurakMapping.cs" />
     <Compile Include="Mapping\RotaMapping.cs" />
     <Compile Include="Mapping\SeferMapping.cs" />
-    <Compile Include="Migrations\201905050700461_updateKullaniciTable.cs" />
-    <Compile Include="Migrations\201905050700461_updateKullaniciTable.Designer.cs">
-      <DependentUpon>201905050700461_updateKullaniciTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905051144275_updateTicketTable.cs" />
-    <Compile Include="Migrations\201905051144275_updateTicketTable.Designer.cs">
-      <DependentUpon>201905051144275_updateTicketTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905051153342_updateTicketTable2.cs" />
-    <Compile Include="Migrations\201905051153342_updateTicketTable2.Designer.cs">
-      <DependentUpon>201905051153342_updateTicketTable2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\EFRepository.cs" />
@@ -87,17 +75,6 @@
       <Project>{a379aead-7a0e-4051-96e5-588f2651c079}</Project>
       <Name>Data</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201905050700461_updateKullaniciTable.resx">
-      <DependentUpon>201905050700461_updateKullaniciTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905051144275_updateTicketTable.resx">
-      <DependentUpon>201905051144275_updateTicketTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905051153342_updateTicketTable2.resx">
-      <DependentUpon>201905051153342_updateTicketTable2.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
