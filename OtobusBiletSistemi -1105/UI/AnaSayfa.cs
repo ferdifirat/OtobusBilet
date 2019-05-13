@@ -284,12 +284,12 @@ namespace UI
             btnOturumuKapat.Visible = false;
 
         }
-
+        int seferId;
         private void btnTekYonSecim_Click(object sender, EventArgs e)
         {
 
-            var seferId = Convert.ToInt32(lstSeferlerGidis.SelectedItems[0].SubItems[0].Text);
-            gidisSefer = _seferRepository.Get(x => x.Id == (int)seferId);
+            seferId = Convert.ToInt32(lstSeferlerGidis.SelectedItems[0].SubItems[0].Text);
+            gidisSefer = _seferRepository.Get(x => x.Id == seferId);  //var int'e çevrildi.
             var otobus = _otobusRepository.Get(x => x.Id == gidisSefer.OtobusID);
             otobusTipi = otobus.OtobusTipiID;
             LoadSelectSeatPanel(otobus);
@@ -361,8 +361,12 @@ namespace UI
 
             if (koltukBilgileri != null)
             {
-                var rota = _rotaRepository.Get(p => p.Id == gidisSefer.Id);
-                fiyat = _fiyatRepository.Get(p => p.KalkisId == rota.CikisID && p.VarisId == rota.VarisID).Tutar; //hata
+                
+                var rota = _seferRepository.Get(p => p.Id == seferId).RotaID;
+                var rota2 = _rotaRepository.Get(p => p.Id == rota);
+                //var rotaId = _seferRepository.Get(p => p.CikisSaati==cikis);
+                ////var rota = _rotaRepository.Get(p => p.Id == rotaId);
+                fiyat = _fiyatRepository.Get(p => p.KalkisId == rota2.CikisID && p.VarisId == rota2.VarisID).Tutar; //hata
 
                 for (int i = 0; i < yolcuSayisi; i++)
                 {
@@ -472,7 +476,9 @@ namespace UI
                             color = Color.Blue;
                             KoltukSecimi(color);
                         }
+                        
                     }
+                   
                     
                     if (secilenKoltuk.BackColor == Color.Turquoise || secilenKoltuk.BackColor == Color.Lime)
                     {
@@ -558,6 +564,14 @@ namespace UI
                             secilenKoltuk.BackColor = Color.Turquoise;
                         yolcuSayaci++;
                     }
+                }
+                else
+                {
+                    if (rdoSatis.Checked)   //Kontrol
+                        secilenKoltuk.BackColor = Color.Lime;
+                    else
+                        secilenKoltuk.BackColor = Color.Turquoise;
+                    yolcuSayaci++;
                 }
             }
 
