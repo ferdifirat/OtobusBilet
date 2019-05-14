@@ -42,6 +42,7 @@
             this.btnTekYonSecim = new System.Windows.Forms.Button();
             this.btnTekYonAra = new System.Windows.Forms.Button();
             this.tpOtobusBilgileri = new System.Windows.Forms.TabPage();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.tpUyeGirisi = new System.Windows.Forms.TabPage();
             this.btnSeferAramayaGit = new System.Windows.Forms.Button();
             this.btnBiletlerim = new System.Windows.Forms.Button();
@@ -183,6 +184,7 @@
             this.rdoEkonomiErkek = new System.Windows.Forms.RadioButton();
             this.rdoEkonomiKadin = new System.Windows.Forms.RadioButton();
             this.tpYolcuBilgileri = new System.Windows.Forms.TabPage();
+            this.btnDonusBileti = new System.Windows.Forms.Button();
             this.btnOdemeYap = new System.Windows.Forms.Button();
             this.pnlKisi3 = new System.Windows.Forms.Panel();
             this.lblBiletFiyati3 = new System.Windows.Forms.Label();
@@ -270,10 +272,12 @@
             this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnDonusKoltukSecimi = new System.Windows.Forms.Button();
             this.tpAdminPaneli = new System.Windows.Forms.TabPage();
-            this.btnDonusBileti = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.tpGidisSeferSecimi.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.pnlGidis.SuspendLayout();
+            this.tpOtobusBilgileri.SuspendLayout();
             this.tpUyeGirisi.SuspendLayout();
             this.grpUyeGirisEkrani.SuspendLayout();
             this.tpSeferAra.SuspendLayout();
@@ -303,6 +307,8 @@
             this.groupBox3.SuspendLayout();
             this.tpDonusSeferSecimi.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // tpGidisSeferSecimi
@@ -419,12 +425,21 @@
             // 
             // tpOtobusBilgileri
             // 
+            this.tpOtobusBilgileri.Controls.Add(this.listView1);
             this.tpOtobusBilgileri.Location = new System.Drawing.Point(4, 22);
             this.tpOtobusBilgileri.Name = "tpOtobusBilgileri";
             this.tpOtobusBilgileri.Size = new System.Drawing.Size(834, 484);
             this.tpOtobusBilgileri.TabIndex = 2;
             this.tpOtobusBilgileri.Text = "Otobüs Bilgileri";
             this.tpOtobusBilgileri.UseVisualStyleBackColor = true;
+            // 
+            // listView1
+            // 
+            this.listView1.Location = new System.Drawing.Point(9, 4);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(817, 263);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // tpUyeGirisi
             // 
@@ -2133,6 +2148,17 @@
             this.tpYolcuBilgileri.TabIndex = 5;
             this.tpYolcuBilgileri.Text = "Yolcu Bilgileri";
             this.tpYolcuBilgileri.UseVisualStyleBackColor = true;
+            this.tpYolcuBilgileri.Click += new System.EventHandler(this.tpYolcuBilgileri_Click);
+            // 
+            // btnDonusBileti
+            // 
+            this.btnDonusBileti.Location = new System.Drawing.Point(189, 286);
+            this.btnDonusBileti.Name = "btnDonusBileti";
+            this.btnDonusBileti.Size = new System.Drawing.Size(134, 33);
+            this.btnDonusBileti.TabIndex = 23;
+            this.btnDonusBileti.Text = "Dönüş Biletini Al";
+            this.btnDonusBileti.UseVisualStyleBackColor = true;
+            this.btnDonusBileti.Click += new System.EventHandler(this.btnDonusBileti_Click);
             // 
             // btnOdemeYap
             // 
@@ -2146,18 +2172,17 @@
             // 
             // pnlKisi3
             // 
+            this.pnlKisi3.Controls.Add(this.groupBox7);
             this.pnlKisi3.Controls.Add(this.lblBiletFiyati3);
             this.pnlKisi3.Controls.Add(this.chkYolculukHizmeti3);
             this.pnlKisi3.Controls.Add(this.label23);
             this.pnlKisi3.Controls.Add(this.lblKoltukNumarasi3);
-            this.pnlKisi3.Controls.Add(this.rdoErkek3);
             this.pnlKisi3.Controls.Add(this.label25);
             this.pnlKisi3.Controls.Add(this.rdoYetiskin3);
             this.pnlKisi3.Controls.Add(this.rdoCocuk3);
             this.pnlKisi3.Controls.Add(this.label26);
             this.pnlKisi3.Controls.Add(this.txtSoyad3);
             this.pnlKisi3.Controls.Add(this.label27);
-            this.pnlKisi3.Controls.Add(this.rdoKadin3);
             this.pnlKisi3.Controls.Add(this.label28);
             this.pnlKisi3.Controls.Add(this.txtAd3);
             this.pnlKisi3.Controls.Add(this.chkSigortali3);
@@ -2211,7 +2236,7 @@
             // rdoErkek3
             // 
             this.rdoErkek3.AutoSize = true;
-            this.rdoErkek3.Location = new System.Drawing.Point(12, 102);
+            this.rdoErkek3.Location = new System.Drawing.Point(14, 12);
             this.rdoErkek3.Name = "rdoErkek3";
             this.rdoErkek3.Size = new System.Drawing.Size(53, 17);
             this.rdoErkek3.TabIndex = 7;
@@ -2230,17 +2255,18 @@
             // rdoYetiskin3
             // 
             this.rdoYetiskin3.AutoSize = true;
-            this.rdoYetiskin3.Location = new System.Drawing.Point(12, 125);
+            this.rdoYetiskin3.Location = new System.Drawing.Point(16, 133);
             this.rdoYetiskin3.Name = "rdoYetiskin3";
             this.rdoYetiskin3.Size = new System.Drawing.Size(62, 17);
             this.rdoYetiskin3.TabIndex = 7;
             this.rdoYetiskin3.Text = "Yetişkin";
             this.rdoYetiskin3.UseVisualStyleBackColor = true;
+            this.rdoYetiskin3.CheckedChanged += new System.EventHandler(this.rdoYetiskinSelected);
             // 
             // rdoCocuk3
             // 
             this.rdoCocuk3.AutoSize = true;
-            this.rdoCocuk3.Location = new System.Drawing.Point(118, 125);
+            this.rdoCocuk3.Location = new System.Drawing.Point(122, 133);
             this.rdoCocuk3.Name = "rdoCocuk3";
             this.rdoCocuk3.Size = new System.Drawing.Size(56, 17);
             this.rdoCocuk3.TabIndex = 8;
@@ -2277,7 +2303,7 @@
             // rdoKadin3
             // 
             this.rdoKadin3.AutoSize = true;
-            this.rdoKadin3.Location = new System.Drawing.Point(118, 102);
+            this.rdoKadin3.Location = new System.Drawing.Point(90, 12);
             this.rdoKadin3.Name = "rdoKadin3";
             this.rdoKadin3.Size = new System.Drawing.Size(52, 17);
             this.rdoKadin3.TabIndex = 8;
@@ -2335,18 +2361,17 @@
             // 
             // pnlKisi2
             // 
+            this.pnlKisi2.Controls.Add(this.groupBox6);
             this.pnlKisi2.Controls.Add(this.lblBiletFiyati2);
             this.pnlKisi2.Controls.Add(this.chkYolculukHizmeti2);
             this.pnlKisi2.Controls.Add(this.label17);
             this.pnlKisi2.Controls.Add(this.lblKoltukNumarasi2);
-            this.pnlKisi2.Controls.Add(this.rdoErkek2);
             this.pnlKisi2.Controls.Add(this.label19);
             this.pnlKisi2.Controls.Add(this.rdoYetiskin2);
             this.pnlKisi2.Controls.Add(this.rdoCocuk2);
             this.pnlKisi2.Controls.Add(this.label20);
             this.pnlKisi2.Controls.Add(this.txtSoyad2);
             this.pnlKisi2.Controls.Add(this.label21);
-            this.pnlKisi2.Controls.Add(this.rdoKadin2);
             this.pnlKisi2.Controls.Add(this.label22);
             this.pnlKisi2.Controls.Add(this.txtAd2);
             this.pnlKisi2.Controls.Add(this.chkSigortali2);
@@ -2376,6 +2401,7 @@
             this.chkYolculukHizmeti2.TabIndex = 25;
             this.chkYolculukHizmeti2.Text = "Yolculuk Hizmeti";
             this.chkYolculukHizmeti2.UseVisualStyleBackColor = true;
+            this.chkYolculukHizmeti2.CheckedChanged += new System.EventHandler(this.chkYolculukHizmetiSelected);
             // 
             // label17
             // 
@@ -2399,7 +2425,7 @@
             // rdoErkek2
             // 
             this.rdoErkek2.AutoSize = true;
-            this.rdoErkek2.Location = new System.Drawing.Point(12, 102);
+            this.rdoErkek2.Location = new System.Drawing.Point(6, 9);
             this.rdoErkek2.Name = "rdoErkek2";
             this.rdoErkek2.Size = new System.Drawing.Size(53, 17);
             this.rdoErkek2.TabIndex = 7;
@@ -2424,6 +2450,7 @@
             this.rdoYetiskin2.TabIndex = 7;
             this.rdoYetiskin2.Text = "Yetişkin";
             this.rdoYetiskin2.UseVisualStyleBackColor = true;
+            this.rdoYetiskin2.CheckedChanged += new System.EventHandler(this.rdoYetiskinSelected);
             // 
             // rdoCocuk2
             // 
@@ -2465,7 +2492,7 @@
             // rdoKadin2
             // 
             this.rdoKadin2.AutoSize = true;
-            this.rdoKadin2.Location = new System.Drawing.Point(118, 102);
+            this.rdoKadin2.Location = new System.Drawing.Point(62, 9);
             this.rdoKadin2.Name = "rdoKadin2";
             this.rdoKadin2.Size = new System.Drawing.Size(52, 17);
             this.rdoKadin2.TabIndex = 8;
@@ -2632,6 +2659,7 @@
             this.rdoYetiskin1.TabIndex = 7;
             this.rdoYetiskin1.Text = "Yetişkin";
             this.rdoYetiskin1.UseVisualStyleBackColor = true;
+            this.rdoYetiskin1.CheckedChanged += new System.EventHandler(this.rdoYetiskinSelected);
             // 
             // rdoCocuk1
             // 
@@ -2841,6 +2869,7 @@
             this.rdoCocuk0.TabIndex = 8;
             this.rdoCocuk0.Text = "Çocuk";
             this.rdoCocuk0.UseVisualStyleBackColor = true;
+            this.rdoCocuk0.CheckedChanged += new System.EventHandler(this.rdoCocuk0_CheckedChanged);
             // 
             // lblTekAdi
             // 
@@ -3016,15 +3045,25 @@
             this.tpAdminPaneli.Text = "Admin Paneli";
             this.tpAdminPaneli.UseVisualStyleBackColor = true;
             // 
-            // btnDonusBileti
+            // groupBox6
             // 
-            this.btnDonusBileti.Location = new System.Drawing.Point(189, 286);
-            this.btnDonusBileti.Name = "btnDonusBileti";
-            this.btnDonusBileti.Size = new System.Drawing.Size(134, 33);
-            this.btnDonusBileti.TabIndex = 23;
-            this.btnDonusBileti.Text = "Dönüş Biletini Al";
-            this.btnDonusBileti.UseVisualStyleBackColor = true;
-            this.btnDonusBileti.Click += new System.EventHandler(this.btnDonusBileti_Click);
+            this.groupBox6.Controls.Add(this.rdoErkek2);
+            this.groupBox6.Controls.Add(this.rdoKadin2);
+            this.groupBox6.Location = new System.Drawing.Point(41, 94);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(133, 33);
+            this.groupBox6.TabIndex = 24;
+            this.groupBox6.TabStop = false;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.rdoKadin3);
+            this.groupBox7.Controls.Add(this.rdoErkek3);
+            this.groupBox7.Location = new System.Drawing.Point(12, 92);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(161, 35);
+            this.groupBox7.TabIndex = 24;
+            this.groupBox7.TabStop = false;
             // 
             // AnaSayfa
             // 
@@ -3038,6 +3077,7 @@
             this.tpGidisSeferSecimi.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.pnlGidis.ResumeLayout(false);
+            this.tpOtobusBilgileri.ResumeLayout(false);
             this.tpUyeGirisi.ResumeLayout(false);
             this.grpUyeGirisEkrani.ResumeLayout(false);
             this.grpUyeGirisEkrani.PerformLayout();
@@ -3080,6 +3120,10 @@
             this.groupBox3.PerformLayout();
             this.tpDonusSeferSecimi.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3329,5 +3373,8 @@
         private System.Windows.Forms.Button btnSeferAramayaGit;
         private System.Windows.Forms.TabPage tpAdminPaneli;
         private System.Windows.Forms.Button btnDonusBileti;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox groupBox7;
     }
 }

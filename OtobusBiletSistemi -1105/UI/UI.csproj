@@ -67,6 +67,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="KoltukBilgisi.cs" />
+    <Compile Include="OdemeBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdemeBilgileri.Designer.cs">
+      <DependentUpon>OdemeBilgileri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UyeKayitEkrani.cs">
@@ -77,6 +83,9 @@
     </Compile>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdemeBilgileri.resx">
+      <DependentUpon>OdemeBilgileri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
