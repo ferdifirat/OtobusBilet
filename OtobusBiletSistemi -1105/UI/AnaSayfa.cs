@@ -807,6 +807,16 @@ namespace UI
             yolcuSayaci = yolcuSayisi;
         }
 
+        private void tpYolcuBilgileri_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdoCocuk0_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void UcretHesap(object sender, int gelenFiyat, Control secilenHizmet)
         {
             var indexOfCheckBox = secilenHizmet.Name[secilenHizmet.Name.Length - 1];

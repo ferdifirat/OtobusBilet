@@ -57,3 +57,15 @@ C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csproj.CoreC
 C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csproj.CopyComplete
 C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.dll
 C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.pdb
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\bin\Debug\Data.dll.config
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\bin\Debug\Data.dll
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\bin\Debug\Data.pdb
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\obj\Debug\Data.dll
+C:\Users\ASUS\Desktop\OtobusBilet\OtobusBiletSistemi -1105\Data\obj\Debug\Data.pdb
