@@ -1,0 +1,83 @@
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\obj\Debug\Data.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\Data\obj\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\Data\obj\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\Data\obj\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\Data\obj\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.pdb

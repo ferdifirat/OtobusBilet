@@ -1,0 +1,318 @@
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi\UI\obj\Debug\UI.Form1.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.BusinessKoltuklari.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.SeferSecimi.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.Cinsiyet.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.SeferArama.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.UyeGirisi.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.EkonomiKoltukEkrani.resources
+C:\Users\Ferdi\source\repos\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.YolcuBilgileri.resources
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.KoltukEkrani.resources
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.YolcuBilgileri.resources
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\son2\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.KoltukEkrani.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.YolcuBilgileri.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi - reposit\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\TCDD-Bilet-Rezervasyon-Sat-OOP-master\OtobusBiletSistemi -1005\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1005\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1105\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\UI\obj\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csprojAssemblyReference.cache
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.AnaSayfa.resources
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.Properties.Resources.resources
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.UyeKayitEkrani.resources
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\UI.exe.config
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\Dal.dll
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\Data.dll
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.dll
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.SqlServer.dll
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\Dal.pdb
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\Dal.dll.config
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\Data.pdb
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\Data.dll.config
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.xml
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\bin\Debug\EntityFramework.SqlServer.xml
+D:\SILMEYINIZ\Desktop\15.05.gg\OtobusBiletSistemi -1305\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\UI.exe.config
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Dal.dll
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Data.dll
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.dll
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.SqlServer.dll
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Dal.pdb
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Dal.dll.config
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Data.pdb
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\Data.dll.config
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.xml
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\bin\Debug\EntityFramework.SqlServer.xml
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csprojAssemblyReference.cache
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.AnaSayfa.resources
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.Properties.Resources.resources
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.UyeKayitEkrani.resources
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.csproj.CopyComplete
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\proje gg\OtobusBiletSistemi.guncel -1505\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\guunceeelğ\UI\obj\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\UI.exe.config
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\Dal.dll
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\Data.dll
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\EntityFramework.dll
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\EntityFramework.SqlServer.dll
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\Dal.pdb
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\Dal.dll.config
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\Data.pdb
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\Data.dll.config
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\EntityFramework.xml
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\bin\Debug\EntityFramework.SqlServer.xml
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.csprojAssemblyReference.cache
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.AnaSayfa.resources
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.Properties.Resources.resources
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.UyeKayitEkrani.resources
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.csproj.CopyComplete
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\GO\guunceeelğ\UI\obj\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\UI.exe.config
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\UI.pdb
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\Dal.dll
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\Data.dll
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\EntityFramework.dll
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\EntityFramework.SqlServer.dll
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\Dal.pdb
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\Dal.dll.config
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\Data.pdb
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\Data.dll.config
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\EntityFramework.xml
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\bin\Debug\EntityFramework.SqlServer.xml
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.csprojAssemblyReference.cache
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.AnaSayfa.resources
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.Properties.Resources.resources
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.UyeKayitEkrani.resources
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.csproj.CopyComplete
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.exe
+D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.pdb
