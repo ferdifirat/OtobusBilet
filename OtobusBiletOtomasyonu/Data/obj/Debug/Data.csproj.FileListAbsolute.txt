@@ -81,3 +81,15 @@ C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\
 C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.csproj.CopyComplete
 C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.dll
 C:\Users\Ferdi\Desktop\OtobusBiletSistemi -1305\OtobusBiletSistemi.guncel -1505\Data\obj\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\obj\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\Data\obj\Debug\Data.pdb

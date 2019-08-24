@@ -316,3 +316,25 @@ D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.csproj.CoreCompileIn
 D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.csproj.CopyComplete
 D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.exe
 D:\SILMEYINIZ\Desktop\Game Over\guunceeelğ\UI\obj\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\UI.exe.config
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\UI.pdb
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\Dal.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\Data.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\EntityFramework.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\Dal.pdb
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\Dal.dll.config
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\Data.pdb
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\Data.dll.config
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\EntityFramework.xml
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.AnaSayfa.resources
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.UyeKayitEkrani.resources
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.exe
+C:\Users\Ferdi\Desktop\OtobusBilet\OtobusBiletOtomasyonu\UI\obj\Debug\UI.pdb

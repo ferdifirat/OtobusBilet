@@ -17,8 +17,8 @@ namespace Dal
 
             
 
-            Database.Connection.ConnectionString = "server = .; database = OtobusBiletlerDb8; trusted_connection=true";
-           
+            //Database.Connection.ConnectionString = "server = .; database = OtobusBiletlerDb8; trusted_connection=true";
+            Database.Connection.ConnectionString = @"server = .\SQLEXPRESS; database = OtobusBiletlerDb8; trusted_connection=true";
 
         }
 

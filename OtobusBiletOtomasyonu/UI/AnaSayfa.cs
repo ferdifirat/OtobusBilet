@@ -125,26 +125,22 @@ namespace UI
             var rotalar = _rotaRepository.GetAll().ToList();
             if (rotalar.Count == 0)
             {
-                List<Rota> EklenecekRotalar = new List<Rota>()
+                List<Rota> eklenecekRotalar2 = new List<Rota>();
+                for (int i = 1; i < 4; i++)
                 {
-                    new Rota() {CikisID = 1, VarisID = 2},
-                    new Rota() {CikisID = 1, VarisID = 3},
-                    new Rota() {CikisID = 1, VarisID = 4},
-                    new Rota() {CikisID = 2, VarisID = 1},
-                    new Rota() {CikisID = 2, VarisID = 3},
-                    new Rota() {CikisID = 2, VarisID = 4},
-                    new Rota() {CikisID = 3, VarisID = 1},
-                    new Rota() {CikisID = 3, VarisID = 2},
-                    new Rota() {CikisID = 3, VarisID = 4},
-                    new Rota() {CikisID = 4, VarisID = 1},
-                    new Rota() {CikisID = 4, VarisID = 2},
-                    new Rota() {CikisID = 4, VarisID = 3}
-                };
-                _rotaRepository.AddRange(EklenecekRotalar);
+                    for (int j = 1; j < 4; j++)
+                    {
+                        if (i != j)
+                        {
+                            eklenecekRotalar2.Add(new Rota() { CikisID = i, VarisID = j });
+                        }
+                    }
 
+                }
+                _rotaRepository.AddRange(eklenecekRotalar2);
+                _uow.SaveChanges();
+                
             }
-            _uow.SaveChanges();
-
             //// otobus Tipi
 
             var otobusTipi = _otobusTipiRepository.GetAll().ToList();
@@ -281,7 +277,7 @@ namespace UI
             }
             _uow.SaveChanges();
 
-            
+
         }
 
         private void BaslangicAyarlari()
@@ -454,7 +450,7 @@ namespace UI
 
         private void btnGiris_Click(object sender, EventArgs e)
         {
-            
+
 
             var kullanici = _kullaniciRepository.Get(x => x.Email == txtMail.Text && x.Password == txtSifre.Text);
 
@@ -754,81 +750,27 @@ namespace UI
                 }
             }
         }
-
+        string seatName;
         private void KoltukSecimi(Color color, string cinsiyet1, string cinsiyet2)
         {
             if (otobusTipi == 1)
             {
+                seatName = "btnEkonomi";
                 if (butonNumarasi % 2 == 0)
-                {
-                    arananKoltuk = "btnEkonomi" + (butonNumarasi - 1);
-                    Button btnKontrol = this.Controls.Find(arananKoltuk, true).FirstOrDefault() as Button;
+                    arananKoltuk = seatName + (butonNumarasi - 1);
 
-                    if (btnKontrol.BackColor != color)
-                    {
-                        secilenKoltuk.Name = "btnEkonomi" + butonNumarasi;
-                        if (rdoSatis.Checked)
-                            secilenKoltuk.BackColor = Color.Lime;
-                        else
-                            secilenKoltuk.BackColor = Color.Turquoise;
-                        yolcuSayaci++;
-                    }
-                    else
-                        MessageBox.Show(cinsiyet1 + " yanına " + cinsiyet2 + " alamazsınız.. ");
-                }
                 else if (butonNumarasi % 2 == 1)
-                {
-                    arananKoltuk = "btnEkonomi" + (butonNumarasi + 1);
-                    Button btnKontrol = this.Controls.Find(arananKoltuk, true).FirstOrDefault() as Button;
-
-                    if (btnKontrol.BackColor != color)
-                    {
-                        secilenKoltuk.Name = "btnEkonomi" + butonNumarasi;
-                        if (rdoSatis.Checked)
-                            secilenKoltuk.BackColor = Color.Lime;
-                        else
-                            secilenKoltuk.BackColor = Color.Turquoise;
-                        yolcuSayaci++;
-                    }
-                    else
-                        MessageBox.Show(cinsiyet1 + " yanına " + cinsiyet2 + " alamazsınız.. ");
-
-                }
+                    arananKoltuk = seatName + (butonNumarasi + 1);
             }
             else
             {
+                seatName = "btnBusiness";
                 if (butonNumarasi % 3 == 0)
-                {
-                    arananKoltuk = "btnBusiness" + (butonNumarasi - 1);
-                    Button btnKontrol = this.Controls.Find(arananKoltuk, true).FirstOrDefault() as Button;
-                    if (btnKontrol.BackColor != color)
-                    {
-                        secilenKoltuk.Name = "btnBusiness" + butonNumarasi;
-                        if (rdoSatis.Checked)
-                            secilenKoltuk.BackColor = Color.Lime;
-                        else
-                            secilenKoltuk.BackColor = Color.Turquoise;
-                        yolcuSayaci++;
-                    }
-                    else
-                        MessageBox.Show(cinsiyet1 + " yanına " + cinsiyet2 + " alamazsınız.. ");
-                }
+                    arananKoltuk = seatName + (butonNumarasi - 1);
+
                 else if ((butonNumarasi + 1) % 3 == 0)
-                {
-                    arananKoltuk = "btnBusiness" + (butonNumarasi + 1);
-                    Button btnKontrol = this.Controls.Find(arananKoltuk, true).FirstOrDefault() as Button;
-                    if (btnKontrol.BackColor != color)
-                    {
-                        secilenKoltuk.Name = "btnBusiness" + butonNumarasi;
-                        if (rdoSatis.Checked)
-                            secilenKoltuk.BackColor = Color.Lime;
-                        else
-                            secilenKoltuk.BackColor = Color.Turquoise;
-                        yolcuSayaci++;
-                    }
-                    else
-                        MessageBox.Show(cinsiyet1 + " yanına " + cinsiyet2 + " alamazsınız.. ");
-                }
+
+                    arananKoltuk = seatName + (butonNumarasi + 1);
                 else
                 {
                     if (rdoSatis.Checked)   //Kontrol
@@ -838,7 +780,23 @@ namespace UI
                     yolcuSayaci++;
                 }
             }
+            Button btnKontrol = this.Controls.Find(arananKoltuk, true).FirstOrDefault() as Button;
 
+            if (btnKontrol!=null)
+            {
+                if (btnKontrol.BackColor != color)
+                {
+                    secilenKoltuk.Name = seatName + butonNumarasi;
+                    if (rdoSatis.Checked)
+                        secilenKoltuk.BackColor = Color.Lime;
+                    else
+                        secilenKoltuk.BackColor = Color.Turquoise;
+                    yolcuSayaci++;
+                }
+                else
+                    MessageBox.Show(cinsiyet1 + " yanına " + cinsiyet2 + " alamazsınız.. ");
+            }
+            
         }
 
         private bool OdemeKontrolu()
@@ -847,13 +805,13 @@ namespace UI
             for (int i = 0; i < yolcuSayisi; i++)
             {
                 var txtFirstName = "txtAd" + i;
-                var txtSureName = "txtSoyad" + i;
-                var txtCitizienshipNumber = "txtTc" + i;
+                var txtSurName = "txtSoyad" + i;
+                var txtCitizienShipNumber = "txtTc" + i;
                 var radioButtonGender = "rdoErkek" + i;
 
                 TextBox firstName = this.Controls.Find(txtFirstName, true).FirstOrDefault() as TextBox;
-                TextBox sureName = this.Controls.Find(txtSureName, true).FirstOrDefault() as TextBox;
-                TextBox citizienshipNumber = this.Controls.Find(txtCitizienshipNumber, true).FirstOrDefault() as TextBox;
+                TextBox sureName = this.Controls.Find(txtSurName, true).FirstOrDefault() as TextBox;
+                TextBox citizienshipNumber = this.Controls.Find(txtCitizienShipNumber, true).FirstOrDefault() as TextBox;
                 RadioButton gender = this.Controls.Find(radioButtonGender, true).FirstOrDefault() as RadioButton;
                 if (firstName.Text == "" || sureName.Text == "" || citizienshipNumber.Text == "")
                 {
@@ -934,7 +892,7 @@ namespace UI
             Label lblBiletFiyati = this.Controls.Find(biletFiyati, true).FirstOrDefault() as Label;
             RadioButton rdoCocuk = this.Controls.Find(cocuk, true).FirstOrDefault() as RadioButton;
 
-            
+
 
             var bilet = new Bilet()
             {
@@ -1283,11 +1241,6 @@ namespace UI
                 var secilenBilet = _biletRepository.Get(x => x.Id == sorgulamaBiletId);
 
             }
-        }
-
-        private void tpUyeGirisi_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void UcretHesap(object sender, int gelenFiyat, Control secilenHizmet)
